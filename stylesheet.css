@@ -1,20 +1,20 @@
 body {
-  background-color: #544b6e;
+  background-color: #534b6d;
 }
 #index-row {
-  background-color: #fbe17b;
+  background-color: #fce17b;
 }
 #code-row {
   background-color: #0e95a1;
 }
 #resume-row {
-  background-color: #3985ba;
+  background-color: #3985bb;
 }
 #photo-row {
-  background-color: #b84a62;
+  background-color: #b94a62;
 }
 #links-row {
-  background-color: #544b6e;
+  background-color: #534b6d;
 }
 .header {
   font-family: 'Nunito', sans-serif;
@@ -22,7 +22,7 @@ body {
 }
 .header,
 .links {
-  padding: 5px 5px 5px 5px;
+  padding: 15px 5px 15px 5px;
   margin: 2px 2px;
 }
 a,
