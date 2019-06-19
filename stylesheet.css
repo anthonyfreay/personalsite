@@ -1,37 +1,38 @@
 body {
-  background-color: #3b4255;
+  background-color: #544b6e;
 }
 #index-row {
-  background-color: #b84a62;
+  background-color: #fbe17b;
 }
 #code-row {
-  background-color: #84a9c1;
+  background-color: #0e95a1;
 }
 #resume-row {
-  background-color: #586ba4;
+  background-color: #3985ba;
 }
 #photo-row {
-  background-color: #736696;
+  background-color: #b84a62;
 }
 #links-row {
-  background-color: #3b4255;
+  background-color: #544b6e;
 }
-p {
-  color: #ffffff;
-  text-decoration: none !important;
+.header {
   font-family: 'Nunito', sans-serif;
-  font-size: 2.7rem;
-  padding: 45px 45px 45px 45px;
-  margin: 0 0 0 0;
-  display: inline;
+  font-size: 3.5rem;
+}
+.header,
+.links {
+  padding: 5px 5px 5px 5px;
+  margin: 2px 2px;
+}
+a,
+a:hover {
+  color: #ffffff;
+}
+a.contact:hover {
+  text-decoration: none !important;
 }
 i {
-  color: #ffffff;
-  padding: 45px 17px 45px 17px;
-}
-a {
-  text-decoration: none !important;
-}
-#icons {
-  padding-left: 2rem;
+  margin: 0 0 0 0;
+  padding: 2px 10px 2px 15px;
 }
