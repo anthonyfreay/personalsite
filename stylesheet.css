@@ -15,25 +15,22 @@ body {
 }
 #links-row {
   background-color: #3985ba;
-  padding: 30px 0px;
+  margin: 27px -15px;
 }
 .header {
   font-family: 'Nunito', sans-serif;
-  font-size: 3.5rem;
-  padding: 30px 5px;
+  font-size: 3.3rem;
+  padding: 27px 5px;
   margin: 2px 2px;
 }
 a,
 a:hover {
   color: #ffffff;
 }
-a.contact:hover {
+a.contact {
   text-decoration: none !important;
 }
 i {
-  margin: 0 0 0 0;
-  padding: 2px 10px 2px 13px;
-}
-i:hover {
-  text-decoration: underline;
+  margin: 2px 14px 2px 14px;
+  padding: 0px 0px;
 }
