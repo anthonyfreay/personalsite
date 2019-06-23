@@ -24,7 +24,8 @@ body {
   margin: 2px 2px;
 }
 a,
-a:hover {
+a:hover,
+div {
   color: #ffffff;
 }
 a.contact {
