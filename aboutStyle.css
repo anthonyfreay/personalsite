@@ -1,0 +1,36 @@
+body {
+  background-color: #080705;
+  font-family: 'Nunito', sans-serif;
+}
+#navbar,
+.navbar-brand {
+  font-size: 25px;
+}
+
+img {
+  max-width: 33%;
+  float: left;
+  padding: 10px 20px 10px 20px;
+}
+
+#bio-words {
+  color: #ffffff;
+  max-width: 90%;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+}
+
+a,
+a:hover,
+div {
+  color: #ffffff;
+  text-decoration: none !important;
+}
+
+#icons {
+  padding: 0px 0px 0px 10px;
+}
+i {
+  margin: 0px 14px 0px 0px;
+  padding: 5px 5px;
+}
