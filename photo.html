@@ -26,23 +26,62 @@
     />
 
     <!-- myCSS -->
-    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="photoStyle.css" rel="stylesheet" type="text/css" />
 
-    <title>anthony freay</title>
+    <title>Anthony Freay</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <a href="/photo.html" class="links" id="photo">
-        <div class="row" id="photo-row">
-          <h1 class="header">photo</h1>
-        </div>
-      </a>
-      <a href="/" class="links" id="index">
-        <div class="row" id="index-row">
-          <h1 class="header">home</h1>
-        </div>
-      </a>
-    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark" id="navbar">
+      <a class="navbar-brand" href="/">Anthony Freay</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/anthonyfreay">Code</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              >Resume</a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Photo
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Music</a>
+              <a class="dropdown-item" href="#">Portraits</a>
+              <a class="dropdown-item" href="#">Street</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="music" class="gallaries">Music</div>
+    <div id="portraits" class="gallaries">Portraits</div>
+    <div id="street" class="gallaries">Street</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

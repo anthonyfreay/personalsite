@@ -2,7 +2,7 @@ body {
   background-color: #3985ba;
 }
 #index-row {
-  background-color: #080705;
+  background-color: #121212;
 }
 #code-row {
   background-color: #544b6e;
@@ -27,10 +27,9 @@ a,
 a:hover,
 div {
   color: #ffffff;
-}
-a.contact {
   text-decoration: none !important;
 }
+
 i {
   margin: 2px 14px 2px 14px;
   padding: 0px 0px;
