@@ -10,11 +10,11 @@ h1 {
   color: #ffffff;
 }
 div.gallery {
-  border: 1px solid #ccc;
+  border: 1px solid #121212;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid #ffffff;
 }
 
 div.gallery img {
