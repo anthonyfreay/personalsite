@@ -11,15 +11,26 @@ body {
   font-size: 3.3rem;
   text-decoration: none !important;
 }
-#music {
+#music-row {
   background-color: #353740;
   padding: 23px 5px;
 }
-#portraits {
+#street-row {
+  background-color: #1e3c5b;
+  padding: 23px 5px;
+}
+#portraits-row {
   background-color: #354962;
   padding: 23px 5px;
 }
-#street {
-  background-color: #1e3c5b;
-  padding: 23px 5px;
+.header {
+  font-size: 3.3rem;
+  padding: 10px 15px;
+  margin: 2px 2px;
+}
+a,
+a:hover,
+div {
+  color: #ffffff;
+  text-decoration: none !important;
 }
