@@ -12,11 +12,11 @@ h1 {
 div.gallery {
   border: 1px solid #121212;
 }
-
+/*
 div.gallery:hover {
   border: 1px solid #ffffff;
 }
-
+*/
 div.gallery img {
   width: 100%;
   height: auto;
