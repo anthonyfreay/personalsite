@@ -7,21 +7,17 @@ body {
   font-size: 2rem;
   background-color: #121212;
 }
-.galleries a {
+.links a {
   color: #ffffff;
   font-size: 3.3rem;
   text-decoration: none !important;
 }
-#music-row {
-  background-color: #00a5cf;
+#code-row {
+  background-color: #7698b3;
   padding: 23px 5px;
 }
-#street-row {
-  background-color: #25a18e;
-  padding: 23px 5px;
-}
-#portraits-row {
-  background-color: #004e64;
+#resume-row {
+  background-color: #1e3c5b;
   padding: 23px 5px;
 }
 .header {

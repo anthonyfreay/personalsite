@@ -39,11 +39,7 @@
     />
 
     <!-- myCSS -->
-    <link
-      href="stylesheets/galleryStyle.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="/stylesheets/devStyle.css" rel="stylesheet" type="text/css" />
 
     <title>Anthony Freay</title>
   </head>
@@ -64,19 +60,29 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="../about.html">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/anthonyfreay">Code</a>
-          </li>
-          <li class="nav-item">
+          <li class="nav-item dropdown">
             <a
-              class="nav-link"
-              href="../resume.pdf"
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dev
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="https://github.com/anthonyfreay">Code</a>
+              <a class="dropdown-item"
+              href="resume.pdf"
               target="_blank"
               rel="noreferrer"
-              >Resume</a
-            >
+              class="links"
+              id="resume"
+            >Resume</a>
+            </div>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -90,17 +96,35 @@
               Photo
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="music.html">Music</a>
-              <a class="dropdown-item" href="street.html">Street</a
-              ><a class="dropdown-item" href="portraits.html"
-                >Portraits (Coming Soon!)</a
-              >
+              <a class="dropdown-item" href="photo/music.html">Music</a>
+              <a class="dropdown-item" href="photo/street.html">Street</a
+              ><a class="dropdown-item" href="#">Portraits (Coming Soon!)</a>
             </div>
           </li>
         </ul>
       </div>
     </nav>
-    <h1>Gallery coming soon!</h1>
+
+    <div class="container-fluid">
+      <div class="links" id="index">
+
+        <a href="https://github.com/anthonyfreay" class="links" id="code">
+          <div class="row" id="code-row">
+            <h1 class="header">Code</h1>
+          </div>
+        </a>
+        <a
+          href="resume.pdf"
+          target="_blank"
+          rel="noreferrer"
+          class="links"
+          id="resume"
+        >
+          <div class="row" id="resume-row">
+            <h1 class="header">Resume</h1>
+          </div>
+        </a>
+      </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

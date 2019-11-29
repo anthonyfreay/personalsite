@@ -1,24 +1,21 @@
 body {
   background-color: #3985ba;
+  font-family: 'Rubik', sans-serif;
 }
 #index-row {
   background-color: #121212;
 }
-#code-row {
-  background-color: #544b6e;
-}
-#resume-row {
+#dev-row {
   background-color: #b84a62;
 }
 #photo-row {
-  background-color: #0e95a1;
+  background-color: #f2d4ab;
 }
 #links-row {
   background-color: #3985ba;
   margin: 27px -15px;
 }
 .header {
-  font-family: 'Rubik', sans-serif;
   font-size: 3.3rem;
   padding: 27px 5px;
   margin: 2px 2px;
