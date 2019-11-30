@@ -10,14 +10,19 @@ body {
 img {
   max-width: 33%;
   float: left;
-  padding: 10px 20px 10px 20px;
+  margin: 10px 20px;
 }
 
 #bio-words {
   color: #ffffff;
-  max-width: 90%;
-  padding: 10px 10px 10px 10px;
+  max-width: 100%;
+  margin: 10px 10px 10px 10px;
   font-size: 16px;
+}
+
+#bio-words p {
+  font-size: 20px;
+  font-weight: 100;
 }
 
 a,
@@ -28,7 +33,7 @@ div {
 }
 
 #icons {
-  padding: 0px 0px 0px 10px;
+  margin: 20px 10px;
 }
 i {
   margin: 0px 14px 0px 0px;
