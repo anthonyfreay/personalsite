@@ -13,13 +13,13 @@ body {
 }
 #links-row {
   background-color: #3985ba;
-  margin: 27px -15px;
+  margin: 0px 0px;
 }
 div .header {
   font-size: 3.3rem;
   font-weight: 100;
   padding: 20px 5px;
-  margin: 2px 2px;
+  margin: 0px 15px;
 }
 a,
 a:hover,
@@ -29,6 +29,6 @@ div {
 }
 
 i {
-  margin: 2px 14px 2px 14px;
-  padding: 0px 0px;
+  margin: 0px 0px;
+  padding: 20px 12px;
 }
