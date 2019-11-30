@@ -1,0 +1,41 @@
+body {
+  background-color: #121212;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+#navbar,
+.navbar-brand {
+  font-size: 2rem;
+  background-color: #121212;
+}
+.contacts a {
+  color: #ffffff;
+  font-size: 3.3rem;
+  text-decoration: none !important;
+}
+#email-row {
+  background-color: #84d2f6;
+  padding: 23px 5px;
+}
+#twitter-row {
+  background-color: #59a5d8;
+  padding: 23px 5px;
+}
+#instagram-row {
+  background-color: #386fa4;
+  padding: 23px 5px;
+}
+#linkedin-row {
+  background-color: #133c55;
+  padding: 23px 5px;
+}
+.header {
+  font-size: 3.3rem;
+  padding: 10px 15px;
+  margin: 2px 2px;
+}
+a,
+a:hover,
+div {
+  color: #ffffff;
+  text-decoration: none !important;
+}

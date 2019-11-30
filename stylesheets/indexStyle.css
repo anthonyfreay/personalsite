@@ -1,5 +1,5 @@
 body {
-  background-color: #3985ba;
+  background-color: #121212;
   font-family: 'Nanum Gothic', sans-serif;
 }
 #about-row {
@@ -11,9 +11,8 @@ body {
 #photo-row {
   background-color: #b84a62;
 }
-#links-row {
+#contact-row {
   background-color: #3985ba;
-  margin: 27px -15px;
 }
 div .header {
   font-size: 3.3rem;
@@ -26,9 +25,4 @@ a:hover,
 div {
   color: #ffffff;
   text-decoration: none !important;
-}
-
-i {
-  margin: 2px 14px 2px 14px;
-  padding: 0px 0px;
 }
