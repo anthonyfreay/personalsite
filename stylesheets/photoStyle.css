@@ -13,14 +13,18 @@ body {
   text-decoration: none !important;
 }
 #music-row {
-  background-color: #00a5cf;
+  background-color: #6fd6a1;
   padding: 23px 5px;
 }
 #street-row {
-  background-color: #25a18e;
+  background-color: #18a08c;
   padding: 23px 5px;
 }
 #portraits-row {
+  background-color: #00a5cf;
+  padding: 23px 5px;
+}
+#bw-row {
   background-color: #004e64;
   padding: 23px 5px;
 }
