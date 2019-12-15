@@ -25,9 +25,12 @@ img {
   font-weight: 100;
 }
 
-a,
-a:hover,
-div {
+a {
+  color: #ffffff;
+  text-decoration: underline !important;
+}
+
+a:hover {
   color: #ffffff;
   text-decoration: none !important;
 }
