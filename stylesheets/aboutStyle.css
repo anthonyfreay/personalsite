@@ -8,7 +8,7 @@ body {
 }
 
 img {
-  max-width: 33%;
+  max-width: 30%;
   float: left;
   margin: 10px 20px;
 }
@@ -17,12 +17,8 @@ img {
   color: #ffffff;
   max-width: 100%;
   margin: 10px 10px 10px 10px;
-  font-size: 16px;
-}
-
-#bio-words p {
   font-size: 20px;
-  font-weight: 100;
+  font-weight: lighter;
 }
 
 a,
@@ -32,12 +28,10 @@ div {
   text-decoration: none !important;
 }
 
-.text-links {
-  color: #ffffff;
-  text-decoration: underline !important;
-}
-
+.text-links,
 .text-links:hover {
   color: #ffffff;
   text-decoration: none !important;
+  font-style: oblique;
+  font-weight: 900;
 }
