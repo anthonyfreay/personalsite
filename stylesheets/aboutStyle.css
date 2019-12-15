@@ -25,20 +25,19 @@ img {
   font-weight: 100;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: underline !important;
-}
-
-a:hover {
+a,
+a:hover,
+div {
   color: #ffffff;
   text-decoration: none !important;
 }
 
-#icons {
-  margin: 20px 10px;
+.text-links {
+  color: #ffffff;
+  text-decoration: underline !important;
 }
-i {
-  margin: 0px 14px 0px 0px;
-  padding: 5px 5px;
+
+.text-links:hover {
+  color: #ffffff;
+  text-decoration: none !important;
 }
