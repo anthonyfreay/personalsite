@@ -27,11 +27,3 @@ div {
   color: #ffffff;
   text-decoration: none !important;
 }
-
-.text-links,
-.text-links:hover {
-  color: #ffffff;
-  text-decoration: none !important;
-  font-style: oblique;
-  font-weight: 900;
-}
