@@ -30,7 +30,9 @@
       name="keywords"
       content="photo,photographer,portraits,street,music,New York,Philly,Anthony,Freay"
     />
-    <!-- Bootstrap CSS -->
+    <meta name="theme-color" content="#121212" />
+
+    <!-- Bootstrap Links-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -45,7 +47,11 @@
     />
 
     <!-- myCSS -->
-    <link href="/stylesheets/photoStyle.css" rel="stylesheet" type="text/css" />
+    <link
+      href="/stylesheets/galleryStyle.css"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <title>Anthony Freay | Photo</title>
 
@@ -134,32 +140,61 @@
       </div>
     </nav>
 
-    <div class="galleries" id="photos">
-      <a href="photo/music.html" class="links" id="music">
-        <div class="row" id="music-row">
-          <h1 class="header">Music</h1>
-        </div>
-      </a>
-
-      <a href="photo/street.html" class="links" id="street">
-        <div class="row" id="street-row">
-          <h1 class="header">Street</h1>
-        </div>
-      </a>
-
-      <a href="photo/portraits.html" class="links" id="portraits">
-        <div class="row" id="portraits-row">
-          <h1 class="header">Portraits</h1>
-        </div>
-      </a>
-
-      <a href="photo/bw.html" class="links" id="bw">
-        <div class="row" id="bw-row">
-          <h1 class="header">Black & White</h1>
-        </div>
-      </a>
+    <div class="responsive">
+      <div class="gallery">
+        <a href="/photo/music.html">
+          <img
+            src="photo/music/freay-music-14.jpg"
+            alt="Music shot by Anthony freay"
+            width="40%"
+            height=""
+          />
+          <div class="desc">Music</div>
+        </a>
+      </div>
     </div>
 
+    <div class="responsive">
+      <div class="gallery">
+        <a href="/photo/street.html">
+          <img
+            src="photo/street/freay-street-4.jpg"
+            alt="Street by Anthony Freay"
+            width="40%"
+            height=""
+          />
+          <div class="desc">Street</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a href="/photo/portraits.html">
+          <img
+            src="photo/portraits/freay_portrait-5.jpg"
+            alt="Portraits shot by Anthony Freay"
+            width="40%"
+            height=""
+          />
+          <div class="desc">Portraits</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="responsive">
+      <div class="gallery">
+        <a href="/photo/bw.html"
+          ><img
+            src="photo/bw/freay-bw-31.jpg"
+            alt="Black & White shot by Anthony Freay"
+            width="40%"
+            height=""
+          />
+          <div class="desc">Black & White</div>
+        </a>
+      </div>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script

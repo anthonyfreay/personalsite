@@ -17,6 +17,12 @@ div.gallery:hover {
   border: 1px solid #ffffff;
 }
 */
+a,
+a:hover {
+  color: #ffffff;
+  text-decoration: none !important;
+}
+
 div.gallery img {
   width: 100%;
   height: auto;
