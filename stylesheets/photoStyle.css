@@ -5,37 +5,66 @@ body {
 #navbar,
 .navbar-brand {
   font-size: 2rem;
-  background-color: #121212;
 }
-.galleries a {
+h1 {
   color: #ffffff;
-  font-size: 3.3rem;
-  text-decoration: none !important;
 }
-#music-row {
-  background-color: #6fd6a1;
-  padding: 23px 5px;
+div.gallery {
+  border: 1px solid #121212;
 }
-#street-row {
-  background-color: #18a08c;
-  padding: 23px 5px;
-}
-#portraits-row {
-  background-color: #00a5cf;
-  padding: 23px 5px;
-}
-#bw-row {
-  background-color: #004e64;
-  padding: 23px 5px;
-}
-.header {
-  font-size: 3.3rem;
-  padding: 10px 15px;
-  margin: 2px 2px;
-}
+
 a,
-a:hover,
-div {
+a:hover {
   color: #ffffff;
   text-decoration: none !important;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+div.desc {
+  margin-top: -65px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 5px 5px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+  div.desc {
+    margin-top: -65px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+  div.desc {
+    margin-top: -65px;
+    font-size: 18px;
+  }
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
 }
