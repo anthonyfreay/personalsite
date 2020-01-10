@@ -60,7 +60,7 @@ div.desc {
 .responsive {
   padding: 5px 5px;
   float: left;
-  width: 24.99999%;
+  width: 32%;
 }
 
 @media only screen and (max-width: 1000px) {
