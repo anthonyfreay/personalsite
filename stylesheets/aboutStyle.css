@@ -7,23 +7,96 @@ body {
   font-size: 2rem;
 }
 
-img {
-  max-width: 30%;
-  float: left;
-  margin: 10px 20px;
-}
-
-#bio-words {
-  color: #ffffff;
-  max-width: 100%;
-  margin: 10px 10px 10px 10px;
-  font-size: 20px;
-  font-weight: lighter;
-}
-
 a,
 a:hover,
 div {
   color: #ffffff;
   text-decoration: none !important;
+}
+
+body {
+  background-color: #121212;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+#navbar,
+.navbar-brand {
+  font-size: 2rem;
+}
+h1 {
+  color: #ffffff;
+}
+div.gallery {
+  border: 1px solid #121212;
+  align-content: center;
+}
+/*
+div.gallery:hover {
+  border: 1px solid #ffffff;
+}
+*/
+a,
+a:hover {
+  color: #ffffff;
+  text-decoration: none !important;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+div.desc {
+  padding: 0 15px;
+  text-align: center;
+  color: white;
+  width: 600px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 5px 5px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+  div.desc {
+    padding: 0 15px;
+    text-align: center;
+    color: white;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 585px) {
+  .responsive {
+    width: 100%;
+  }
+  div.desc {
+    padding: 0 15px;
+    text-align: center;
+    color: white;
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+p {
+  text-align: center;
+}
+div.bio {
+  display: inline-block;
 }
