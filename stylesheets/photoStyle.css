@@ -1,6 +1,7 @@
 body {
   background-color: #121212;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: benton-sans, sans-serif;
+  font-style: normal;
 }
 #navbar,
 .navbar-brand {

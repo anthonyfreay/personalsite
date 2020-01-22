@@ -1,26 +1,17 @@
 body {
   background-color: #121212;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: benton-sans, sans-serif;
+  font-style: normal;
 }
 #navbar,
 .navbar-brand {
   font-size: 2rem;
 }
-
 a,
 a:hover,
 div {
   color: #ffffff;
   text-decoration: none !important;
-}
-
-body {
-  background-color: #121212;
-  font-family: 'Nanum Gothic', sans-serif;
-}
-#navbar,
-.navbar-brand {
-  font-size: 2rem;
 }
 h1 {
   color: #ffffff;
@@ -29,40 +20,26 @@ div.gallery {
   border: 1px solid #121212;
   align-content: center;
 }
-/*
-div.gallery:hover {
-  border: 1px solid #ffffff;
-}
-*/
-a,
-a:hover {
-  color: #ffffff;
-  text-decoration: none !important;
-}
-
 div.gallery img {
   width: 100%;
   height: auto;
   padding-bottom: 20px;
 }
-
 div.desc {
   padding: 0 15px;
   text-align: center;
   color: white;
+  font-size: 20px;
   width: 600px;
 }
-
 * {
   box-sizing: border-box;
 }
-
 .responsive {
   padding: 5px 5px;
   float: left;
   width: 32%;
 }
-
 @media only screen and (max-width: 1000px) {
   .responsive {
     width: 49.99999%;
@@ -75,7 +52,6 @@ div.desc {
     width: 300px;
   }
 }
-
 @media only screen and (max-width: 585px) {
   .responsive {
     width: 100%;
@@ -93,7 +69,6 @@ div.desc {
   display: table;
   clear: both;
 }
-
 p {
   text-align: center;
 }
