@@ -33,6 +33,15 @@ div.desc {
   color: white;
 }
 
+div#footer.container {
+  text-align: center;
+  font-size: 2rem;
+}
+
+a#next-gallery {
+  padding: 10px 10px 10px 10px;
+}
+
 * {
   box-sizing: border-box;
 }
