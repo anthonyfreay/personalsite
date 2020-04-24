@@ -1,30 +1,25 @@
+html,
 body {
   background-color: #121212;
-  font-family: benton-sans, sans-serif;
-
+  font-family: bebas-kai, sans-serif;
   font-style: normal;
+  height: 100%;
 }
-#about-row {
-  background-color: #121212;
+div.main {
+  padding-top: 250px;
 }
-#dev-row {
-  background-color: #f2d4ab;
+h1 {
+  font-size: 4rem;
+  color: #f8f9fa;
+  text-align: center;
 }
-#photo-row {
-  background-color: #b84a62;
+div.buttons {
+  text-align: center;
 }
-#contact-row {
-  background-color: #3985ba;
-}
-div .header {
-  font-size: 3.3rem;
-  font-weight: 100;
-  padding: 20px 5px;
-  margin: 2px 2px;
-}
-a,
-a:hover,
-div {
-  color: #ffffff;
-  text-decoration: none !important;
+
+button#photo,
+button#dev {
+  font-size: 1.5rem;
+  padding: 5px;
+  margin: 10px;
 }
