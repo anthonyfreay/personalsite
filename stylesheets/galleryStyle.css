@@ -6,17 +6,16 @@ body {
 .navbar-brand {
   font-size: 2rem;
 }
-h1 {
+
+h1.header {
   color: #ffffff;
+  text-align: center;
 }
+
 div.gallery {
   border: 1px solid #121212;
 }
-/*
-div.gallery:hover {
-  border: 1px solid #ffffff;
-}
-*/
+
 a,
 a:hover {
   color: #ffffff;
