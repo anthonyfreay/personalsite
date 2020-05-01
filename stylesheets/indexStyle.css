@@ -23,3 +23,8 @@ button#dev {
   padding: 5px;
   margin: 10px;
 }
+a,
+a:hover {
+  color: #ffffff;
+  text-decoration: none !important;
+}
