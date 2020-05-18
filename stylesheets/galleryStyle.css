@@ -12,10 +12,6 @@ h1.header {
   text-align: center;
 }
 
-div.gallery {
-  border: 1px solid #121212;
-}
-
 a,
 a:hover {
   color: #ffffff;
