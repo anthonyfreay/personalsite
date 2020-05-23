@@ -23,12 +23,6 @@ div.gallery img {
   height: auto;
 }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
-  color: white;
-}
-
 div#footer.container {
   text-align: center;
   font-size: 2rem;

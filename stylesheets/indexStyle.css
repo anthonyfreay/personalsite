@@ -10,7 +10,7 @@ div.main {
 }
 h1 {
   font-size: 4rem;
-  color: #f8f9fa;
+  color: #ffffff;
   text-align: center;
 }
 div.buttons {
@@ -23,6 +23,7 @@ button#dev {
   padding: 5px;
   margin: 10px;
 }
+
 a,
 a:hover {
   color: #ffffff;
