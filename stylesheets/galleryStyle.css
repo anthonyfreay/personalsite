@@ -23,13 +23,9 @@ div.gallery img {
   height: auto;
 }
 
-div#footer.container {
+div#footer {
   text-align: center;
   font-size: 2rem;
-}
-
-a#next-gallery {
-  padding: 10px 10px 10px 10px;
 }
 
 * {
