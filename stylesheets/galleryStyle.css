@@ -1,6 +1,8 @@
+html,
 body {
   background-color: #121212;
   font-family: bebas-kai, sans-serif;
+  font-style: normal;
 }
 #navbar,
 .navbar-brand {
