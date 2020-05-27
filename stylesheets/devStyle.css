@@ -8,6 +8,7 @@ body {
 #navbar,
 .navbar-brand {
   font-size: 2rem;
+  background-color: #121212;
 }
 .links a {
   color: #ffffff;

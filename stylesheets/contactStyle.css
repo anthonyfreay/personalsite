@@ -5,6 +5,7 @@ body {
 #navbar,
 .navbar-brand {
   font-size: 2rem;
+  background-color: #121212;
 }
 .contacts a {
   color: #ffffff;
