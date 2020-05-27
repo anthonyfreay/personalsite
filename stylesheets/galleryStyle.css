@@ -23,16 +23,20 @@ div.gallery img {
   height: auto;
 }
 
-div#next-gallery,
-div#links {
+div.container {
   text-align: center;
-  font-size: 2rem;
+}
+
+div#next-gallery {
+  font-size: 2.5rem;
 }
 
 i.fas,
 i.fab {
   color: #ffffff;
-  margin: 20px 10px 40px 10px;
+  font-size: 2rem;
+
+  margin: 25px 10px 45px 10px;
   text-align: center;
 }
 
