@@ -23,9 +23,17 @@ div.gallery img {
   height: auto;
 }
 
-div#footer {
+div#next-gallery,
+div#links {
   text-align: center;
   font-size: 2rem;
+}
+
+i.fas,
+i.fab {
+  color: #ffffff;
+  margin: 20px 10px 40px 10px;
+  text-align: center;
 }
 
 * {

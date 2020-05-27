@@ -1,7 +1,9 @@
+html,
 body {
   background-color: #121212;
   font-family: bebas-kai, sans-serif;
   font-style: normal;
+  height: 100%;
 }
 #navbar,
 .navbar-brand {
@@ -30,4 +32,17 @@ a:hover,
 div {
   color: #ffffff;
   text-decoration: none !important;
+}
+
+div#next-gallery,
+div#links {
+  text-align: center;
+  font-size: 2rem;
+}
+
+i.fas,
+i.fab {
+  color: #ffffff;
+  margin: 20px 10px 40px 10px;
+  text-align: center;
 }
