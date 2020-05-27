@@ -10,6 +10,7 @@ body {
 h1.header {
   color: #ffffff;
   text-align: center;
+  font-size: 2.5rem;
 }
 
 a,
@@ -28,7 +29,7 @@ div.container {
 }
 
 div#next-gallery {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
 }
 
 i.fas,
