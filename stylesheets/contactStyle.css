@@ -19,11 +19,12 @@ body {
 .bio {
   display: inline-block;
   vertical-align: top;
+  max-width: 500px;
+  height: 100%;
 }
 
 #bio-img {
   margin: 20px 20px 20px 20px;
-  max-width: 700px;
 }
 
 #profile {
@@ -34,8 +35,7 @@ body {
   color: #ffffff;
   font-family: mr-eaves-xl-modern, sans-serif;
   font-style: italic;
-  max-width: 500px;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-style: italic;
   padding: 20px 20px 20px 20px;
   text-align: left;
@@ -91,8 +91,8 @@ span.terms {
   background-color: #272727;
   color: #ffffff;
   border: none;
-  font-size: 1.05rem;
-  padding: 5px 20px 5px 20px;
+  font-size: 1.1rem;
+  padding: 10px 25px 10px 25px;
   text-align: left;
   margin-bottom: 20px;
 }
