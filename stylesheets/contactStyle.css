@@ -18,6 +18,7 @@ body {
 
 .bio {
   display: inline-block;
+  vertical-align: top;
 }
 
 #bio-img {
