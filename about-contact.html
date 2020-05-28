@@ -143,7 +143,7 @@
 
     <div class="wrapper">
       <div id="bio-img" class="bio">
-        <img src="anthonyfreay-bw.jpg" alt="Anthony Freay" id="profile"/>
+        <img src="anthonyfreay-bw.jpg" alt="Anthony Freay" id="profile" />
       </div>
 
       <div id="bio-desc" class="bio">
@@ -164,39 +164,78 @@
         </p>
 
         <p id="pro-inquiries">
-          For professional inquiries, reach out using the form below or via email.
+          For professional inquiries, reach out using the form below or via
+          email.
         </p>
 
-        <p id="personl-inquiries">For personal inquiries, please reach out via social media.</p>
+        <p id="personl-inquiries">
+          For personal inquiries, please reach out via social media.
+        </p>
 
         <form id="contact-form" method="POST">
-          
-          <input class="name" id="fname" type="text" name="fname" placeholder="First Name *" required/>
-          
-          <input class="name" id="lname" type="text" name="lname" placeholder="Last Name *" required/>
-          
-          <input class="email" type="email" name="_replyto" placeholder="Email *" required/>
-          
-          <input class="subject" type="subject" name="_subject" placeholder="Subject *" required/>
-          
-          <textarea class="body" name="message" placeholder="Scope of work *" required></textarea> 
-          
+          <input
+            class="name"
+            id="fname"
+            type="text"
+            name="fname"
+            placeholder="First Name *"
+            required
+          />
+
+          <input
+            class="name"
+            id="lname"
+            type="text"
+            name="lname"
+            placeholder="Last Name *"
+            required
+          />
+
+          <input
+            class="email"
+            type="email"
+            name="_replyto"
+            placeholder="Email *"
+            required
+          />
+
+          <input
+            class="subject"
+            type="subject"
+            name="_subject"
+            placeholder="Subject *"
+            required
+          />
+
+          <textarea
+            class="body"
+            name="message"
+            placeholder="Scope of work *"
+            required
+          ></textarea>
+
           <label for="check" class="terms">
             Terms of Service *
             <span class="terms">
-              I understand this is a professional inquiry, not a personal message
-            </span> 
+              I understand this is a professional inquiry, not a personal
+              message
+            </span>
           </label>
-          
+
           <select class="terms" name="check" form="contact-form" required>
             <option value="">Select</option>
             <option value="Yes">Yes, I understand</option>
-          
-            <input type="text" name="_gotcha" style="display: none;" />
-          
-          
+          </select>
+
+          <input type="text" name="_gotcha" style="display: none;" />
+
+          <input
+            type="hidden"
+            name="_next"
+            value="https://anthonyfreay.com/thanks.html"
+          />
+
           <input class="submit" type="submit" value="Submit" />
-          
         </form>
 
         <p class="links">
