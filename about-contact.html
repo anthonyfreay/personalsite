@@ -170,12 +170,23 @@
           >. For personal inquiries, please reach out via social media.
         </p>
 
-        <form action="https://formspree.io/xdowepna" method="POST">
-          <input type="text" name="name" placeholder="your name" />
-          <input type="email" name="_replyto" placeholder="your email" />
-          <input type="hidden" name="_subject" value="Website contact" />
-          <textarea name="message" placeholder="your message"></textarea>
-          <input type="submit" value="Send" />
+        <form id="contact-form" method="POST">
+          <input class="name" id="fname" type="text" name="fname" placeholder="First Name *" required/>
+          <input class="name" id="lname" type="text" name="lname" placeholder="Last Name *" required/>
+          <input class="email" type="email" name="_replyto" placeholder="Email *" required/>
+          <input class="subject" type="subject" name="_subject" placeholder="Subject *" required/>
+          <textarea class="body" name="message" placeholder="Scope of work *" required></textarea> 
+          <label for="check" class="terms">
+            Terms of Service *
+            <span class="terms">
+              I understand this is a professional inquiry, not a personal message
+            </span> 
+          </label>
+          <select class="terms" name="check" form="contact-form" required>
+            <option value="">Select</option>
+            <option value="Yes">Yes, I understand</option>
+          <input type="text" name="_gotcha" style="display: none;" />
+          <input class="submit" type="submit" value="Submit" />
         </form>
 
         <p class="links">
@@ -212,5 +223,12 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script>
+      var contactform = document.getElementById('contact-form');
+      contactform.setAttribute(
+        'action',
+        'https:/' + '/formspree.io/' + 'xd' + 'ow' + 'ep' + 'na'
+      );
+    </script>
   </body>
 </html>

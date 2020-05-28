@@ -22,18 +22,19 @@ body {
 
 #bio-img {
   margin: 20px 20px 20px 20px;
+  max-width: 700px;
+  border: 5px solid #ffffff;
 }
 
-img#profile {
-  max-width: 90%;
-  border: 5px solid #ffffff;
+#profile {
+  width: 100%;
 }
 
 #bio-desc {
   color: #ffffff;
   font-family: mr-eaves-xl-modern, sans-serif;
   font-style: italic;
-  max-width: 550px;
+  max-width: 500px;
   font-size: 1.05rem;
   font-style: italic;
   padding: 20px 20px 20px 20px;
@@ -53,6 +54,51 @@ a:hover,
 div {
   color: #ffffff;
   text-decoration: none !important;
+}
+
+#contact-form {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.name {
+  margin-bottom: 10px;
+  width: 48.5%;
+}
+
+.email,
+.subject {
+  margin-bottom: 10px;
+  width: 98%;
+}
+
+.body {
+  width: 98%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.terms {
+  display: block;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+span.terms {
+  font-size: 1rem;
+  margin: 0px;
+  color: #b2b2b2;
+}
+
+.submit {
+  background-color: #272727;
+  color: #ffffff;
+  border: none;
+  font-size: 1.05rem;
+  padding: 5px 20px 5px 20px;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 i.fas,
