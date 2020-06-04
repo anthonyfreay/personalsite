@@ -1,15 +1,21 @@
 html,
 body {
-  background-color: #121212;
+  background-color: #0e0e0e;
   font-family: bebas-kai, sans-serif;
   font-style: normal;
-  height: 100%;
 }
-#navbar,
+#navbar {
+  background-color: none;
+}
+
 .navbar-brand {
   font-size: 2rem;
-  background-color: #121212;
 }
+
+.nav-item {
+  font-size: 1.4rem;
+}
+
 .links a {
   color: #ffffff;
   font-size: 3.3rem;
