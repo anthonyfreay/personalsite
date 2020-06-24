@@ -71,6 +71,12 @@ i.fab {
   width: 24.99999%;
 }
 
+.picture-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
