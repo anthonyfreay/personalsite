@@ -1,9 +1,14 @@
 html,
 body {
-  background-color: #0e0e0e;
   font-family: bebas-kai, sans-serif;
   font-style: normal;
   height: 100%;
+  background-image: url('/full-wallpaper-200108-04016.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #0e0e0e;
 }
 
 div.main {
@@ -45,6 +50,7 @@ a:hover {
 i.fas,
 i.fab {
   color: #ffffff;
+  background-color: #0e0e0e;
   font-size: 2rem;
   margin: 20px 10px 10px 10px;
 }
@@ -53,4 +59,23 @@ div#footer {
   text-align: center;
   font-size: 2rem;
   width: 320px;
+}
+
+@media only screen and (max-width: 1367.99999px) {
+  body {
+    background-image: url('/large-wallpaper-200108-04016.jpg');
+  }
+}
+
+@media only screen and (max-width: 824.99999px) {
+  body {
+    background-image: url('/medium-wallpaper-200108-04016.jpg');
+  }
+}
+
+@media only screen and (max-width: 668.99999px) {
+  html,
+  body {
+    background-image: url('/small-wallpaper-200108-04016.jpg');
+  }
 }
