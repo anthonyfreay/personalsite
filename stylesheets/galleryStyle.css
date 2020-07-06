@@ -98,13 +98,14 @@ i.fab {
 }
 
 #lightbox.active img {
-  max-width: 750px;
+  max-height: 750px;
   cursor: default;
+  border: 5px solid #ffffff;
 }
 
 @media only screen and (max-width: 1367.99999px) {
   #lightbox.active img {
-    max-width: 700px;
+    max-height: 625px;
   }
 }
 
@@ -114,13 +115,19 @@ i.fab {
   }
 
   #lightbox.active img {
-    max-width: 650px;
+    max-height: 600px;
   }
 }
 
-@media only screen and (max-width: 668.99999px) {
+@media only screen and (max-width: 649.99999px) {
   #lightbox.active img {
-    max-width: 450px;
+    max-height: 550px;
+  }
+}
+
+@media only screen and (max-width: 499.99999px) {
+  #lightbox.active img {
+    max-height: 400px;
   }
 }
 
