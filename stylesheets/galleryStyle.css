@@ -98,14 +98,14 @@ i.fab {
 }
 
 #lightbox.active img {
-  max-height: 750px;
+  max-width: 520px;
   cursor: default;
   border: 5px solid #ffffff;
 }
 
 @media only screen and (max-width: 1367.99999px) {
   #lightbox.active img {
-    max-height: 625px;
+    max-width: 490px;
   }
 }
 
@@ -115,19 +115,31 @@ i.fab {
   }
 
   #lightbox.active img {
-    max-height: 600px;
+    max-width: 470px;
   }
 }
 
-@media only screen and (max-width: 649.99999px) {
+@media only screen and (max-width: 767.99999px) {
   #lightbox.active img {
-    max-height: 550px;
+    max-width: 400px;
   }
 }
 
-@media only screen and (max-width: 499.99999px) {
+@media only screen and (max-width: 424.99999px) {
   #lightbox.active img {
-    max-height: 400px;
+    max-width: 370px;
+  }
+}
+
+@media only screen and (max-width: 374.99999px) {
+  #lightbox.active img {
+    max-width: 310px;
+  }
+}
+
+@media only screen and (max-width: 319.99999px) {
+  #lightbox.active img {
+    max-width: 250px;
   }
 }
 
