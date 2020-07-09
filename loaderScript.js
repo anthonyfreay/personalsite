@@ -1,7 +1,7 @@
 var loadTime;
 
 function loadPage() {
-  loadTime = setTimeout(showPage, 400);
+  loadTime = setTimeout(showPage, 600);
 }
 
 function showPage() {
