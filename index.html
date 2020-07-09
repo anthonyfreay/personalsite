@@ -62,8 +62,9 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <div class="main">
+  <body onload="loadPage()">
+    <div id="loader"></div>
+    <div id="content" class="main">
       <div class="vertically-center">
         <h1 class="title">Anthony Freay</h1>
         <div class="buttons">
@@ -96,5 +97,7 @@
         </footer>
       </div>
     </div>
+
+    <script src="/loaderScript.js"></script>
   </body>
 </html>
