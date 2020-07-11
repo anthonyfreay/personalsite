@@ -56,6 +56,7 @@ div.vertically-center {
 }
 
 h1 {
+  cursor: default;
   font-size: 3.8rem;
   color: #ffffff;
   text-align: center;
