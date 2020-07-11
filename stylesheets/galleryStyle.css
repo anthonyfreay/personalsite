@@ -96,7 +96,7 @@ i.fab {
 }
 
 #lightbox.active img {
-  max-width: 520px;
+  max-width: 500px;
   cursor: default;
   border: 5px solid #ffffff;
   display: none;
@@ -122,7 +122,7 @@ i.fab {
 
 @media only screen and (max-width: 1367.99999px) {
   #lightbox.active img {
-    max-width: 490px;
+    max-width: 480px;
   }
 }
 
@@ -132,7 +132,7 @@ i.fab {
   }
 
   #lightbox.active img {
-    max-width: 470px;
+    max-width: 460px;
   }
 }
 
