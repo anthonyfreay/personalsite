@@ -1,7 +1,7 @@
 var loadTime;
 
 function loadContent() {
-  loadTime = setTimeout(showContent, 1000);
+  loadTime = setTimeout(showContent, 600);
 }
 
 function showContent() {
