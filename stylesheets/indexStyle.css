@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: bebas-kai, sans-serif;
+  font-family: bebas-neue-pro-expanded, sans-serif;
   font-style: normal;
   height: 100%;
   background-image: url('/compressed-wallpaper-200108-04016.jpg');
@@ -8,7 +8,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #0e0e0e;
+  background-color: #0b0b0b;
 }
 
 div.main {
