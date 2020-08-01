@@ -4,11 +4,18 @@ body {
   font-family: bebas-neue-pro-expanded, sans-serif;
   font-style: normal;
   height: 100%;
+  background-image: url('/compressed-wallpaper-200108-04016.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #0b0b0b;
 }
 
 div.main {
   height: 100%;
   position: relative;
+  background-color: rgba(14, 14, 14, 0.5);
 }
 
 div.vertically-center {
@@ -74,6 +81,19 @@ div#footer {
 }
 
 @media only screen and (max-width: 700px) {
+}
+
+@media only screen and (max-width: 1367.99999px) {
+  body {
+    background-image: url('/large-wallpaper-200108-04016.jpg');
+  }
+}
+
+@media only screen and (max-width: 824.99999px) {
+  body {
+    background-image: url('/medium-wallpaper-200108-04016.jpg');
+  }
+
   p#response-1 {
     font-size: 3rem;
   }
@@ -85,5 +105,12 @@ div#footer {
 
     margin: 10px 10px 35px 10px;
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 668.99999px) {
+  html,
+  body {
+    background-image: url('/small-wallpaper-200108-04016.jpg');
   }
 }
