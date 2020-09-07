@@ -25,6 +25,7 @@ body::-webkit-scrollbar {
 
 .nav-item {
   font-size: 1.4rem;
+  font-family: mr-eaves-xl-modern, sans-serif;
   padding: 0px 5px;
 }
 
