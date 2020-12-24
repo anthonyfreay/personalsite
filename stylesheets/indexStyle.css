@@ -1,6 +1,7 @@
 html,
 body {
   font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 600;
   font-style: normal;
   height: 100%;
   background-image: url('/img/compressed-wallpaper-200108-04016.jpg');
