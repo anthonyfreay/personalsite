@@ -12,7 +12,7 @@ body::-webkit-scrollbar {
 }
 
 #navbar {
-  background-color: none;
+  background-color: #0b0b0b;
 }
 
 .navbar-brand {
@@ -22,6 +22,7 @@ body::-webkit-scrollbar {
 .nav-item {
   font-size: 1.2rem;
   padding: 0px 5px;
+  font-family: mr-eaves-xl-modern, sans-serif;
 }
 
 .links a {
