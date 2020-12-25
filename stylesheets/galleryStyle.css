@@ -13,21 +13,29 @@ body::-webkit-scrollbar {
 }
 
 #navbar {
-  background-color: none;
+  background-color: #0b0b0b;
 }
 
 .navbar-brand {
-  font-size: 2.5rem;
+  margin: 10px 30px;
+  padding: 0px 10px;
+  font-size: 3.5rem;
 }
 
-#current-page {
+#current-page,
+.current-page {
   color: #ffffff;
+}
+
+#subpage {
+  color: #ffffff;
+  background-color: #0b0b0b;
 }
 
 .nav-item {
   font-size: 1.2rem;
   font-family: mr-eaves-xl-modern, sans-serif;
-
+  font-weight: 400;
   padding: 0px 5px;
 }
 
