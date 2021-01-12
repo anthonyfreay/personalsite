@@ -16,15 +16,26 @@ body::-webkit-scrollbar {
 }
 
 .navbar-brand {
-  margin: 10px 30px;
-  padding: 0px 10px;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .nav-item {
   font-size: 1.2rem;
   padding: 0px 5px;
   font-family: mr-eaves-xl-modern, sans-serif;
+}
+
+#current-page {
+  color: #ffffff;
+}
+
+#alt-page {
+  color: #af54fa;
+}
+
+#current-page:hover,
+#alt-page:hover {
+  color: #fa549f;
 }
 
 .links a {
