@@ -46,13 +46,14 @@ body::-webkit-scrollbar {
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
+  max-width: 1800px ;
 }
   
 /* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 33%; /* IE10 */
-  flex: 33%;
-  max-width: 33%;
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
   padding: 0 4px;
 }
   
