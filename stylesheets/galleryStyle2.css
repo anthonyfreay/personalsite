@@ -39,6 +39,15 @@ body::-webkit-scrollbar {
   font-weight: 400;
   padding: 0px 5px;
 }
+
+p.disclaimer {
+  text-align: center;
+  margin: auto;
+}
+
+span.disclaimer {
+  text-decoration: underline;
+}
   
 .container {
   display: -ms-flexbox; /* IE10 */
