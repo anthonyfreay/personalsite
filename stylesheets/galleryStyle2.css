@@ -105,6 +105,7 @@ a:hover {
 div.next-gallery {
     font-size: 1.8rem;
     text-align: center;
+    width: 310px;
 }
 div.links {
     text-align: center;
