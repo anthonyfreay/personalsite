@@ -58,10 +58,13 @@ div.vertically-center {
   display: none;
 }
 
-h1 {
-  cursor: default;
+div.title {
+  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-weight: 200;
+  font-style: normal;
   font-size: 3.8rem;
   color: #ffffff;
+  width: 800px;
   text-align: center;
 }
 div.buttons {
@@ -101,11 +104,11 @@ div#footer {
   }
 }
 
-@media only screen and (max-width: 824.99999px) {
+@media only screen and (max-width: 841.99999px) {
   body {
     background-image: url('/img/medium-wallpaper-200108-04016.jpg');
   }
-  h1 {
+  div.title {
     font-size: 3.7rem;
   }
 }
@@ -115,11 +118,30 @@ div#footer {
   body {
     background-image: url('/img/small-wallpaper-200108-04016.jpg');
   }
-  h1 {
+  div.title {
     font-size: 3.5rem;
   }
   button#photo,
   button#dev {
-    font-size: 1.3rem;
+    font-size: 1.22rem;
   }
+}
+
+@media only screen and (max-width: 390.99999px) {
+  html,
+  body {
+    background-image: url('/img/small-wallpaper-200108-04016.jpg');
+  }
+  div.title {
+    font-size: 2rem;
+  }
+  button#photo,
+  button#dev {
+    font-size: .8rem;
+  }
+  i.fas,
+  i.fab {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
 }

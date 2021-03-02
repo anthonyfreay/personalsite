@@ -39,6 +39,14 @@ body::-webkit-scrollbar {
   font-weight: 400;
   padding: 0px 5px;
 }
+
+p.disclaimer {
+  text-align: center;
+}
+
+span.disclaimer {
+  text-decoration: underline;
+}
   
 .container {
   display: -ms-flexbox; /* IE10 */
@@ -97,6 +105,7 @@ a:hover {
 div.next-gallery {
     font-size: 1.8rem;
     text-align: center;
+    width: 310px;
 }
 div.links {
     text-align: center;
