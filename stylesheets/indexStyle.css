@@ -62,7 +62,7 @@ div.title {
   font-family: brandon-grotesque, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #ffffff;
   width: 800px;
   text-align: center;
@@ -119,7 +119,7 @@ div#footer {
     background-image: url('/img/small-wallpaper-200108-04016.jpg');
   }
   div.title {
-    font-size: 3.5rem;
+    font-size: 2rem;
   }
   button#photo,
   button#dev {
