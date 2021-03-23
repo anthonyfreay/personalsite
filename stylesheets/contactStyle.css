@@ -1,8 +1,10 @@
 html,
 body {
-  background-color: #0b0b0b;
-  font-family: bebas-neue-pro-expanded, sans-serif;
+  background-color: #e3dde0;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 500;
   font-style: normal;
+  color: #0b0b0b;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -12,24 +14,29 @@ body::-webkit-scrollbar {
 }
 
 #navbar {
-  background-color: #0b0b0b;
+  background-color: #e3dde0;
 }
 
-.navbar-brand {
-  font-size: 3rem;
+a#logo {
+  font-size: 1.7rem;
+  color: #1b1b1b;
+}
+
+#logo {
+  color: #0b0b0b;
 }
 
 #current-page {
-  color: #ffffff;
+  color: #e3dde0;
 }
 
 #alt-page {
-  color: #54e7fa;
+  color: #54c6eb;
 }
 
 #current-page:hover,
 #alt-page:hover {
-  color: #fa549f;
+  color: #e87461;
 }
 
 .nav-item {
@@ -55,11 +62,11 @@ body::-webkit-scrollbar {
 }
 
 #profile {
-  border: 5px solid #ffffff;
+  border: 5px solid #e3dde0;
 }
 
 #bio-desc {
-  color: #ffffff;
+  color: #0b0b0b;
   font-family: mr-eaves-xl-modern, sans-serif;
   font-style: italic;
   font-size: 1.1rem;
@@ -67,14 +74,14 @@ body::-webkit-scrollbar {
   text-align: left;
 }
 
-.links {
+.socials {
   text-align: center;
 }
 
 a,
 a:hover,
 div {
-  color: #ffffff;
+  color: #e3dde0;
   text-decoration: none !important;
 }
 
@@ -115,7 +122,7 @@ span.terms {
 
 .submit {
   background-color: #272727;
-  color: #ffffff;
+  color: #e3dde0;
   border: none;
   font-size: 1.1rem;
   padding: 10px 25px 10px 25px;
@@ -125,7 +132,7 @@ span.terms {
 
 i.fas,
 i.fab {
-  color: #ffffff;
+  color: #0b0b0b;
   font-size: 2rem;
 
   margin: 10px 10px 10px 10px;

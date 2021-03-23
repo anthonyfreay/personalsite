@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: bebas-neue-pro-expanded, sans-serif;
+  font-family: brandon-grotesque, sans-serif;
   font-weight: 600;
   font-style: normal;
   height: 100%;
@@ -59,10 +59,10 @@ div.vertically-center {
 }
 
 div.title {
-  font-family: bebas-neue-pro-expanded, sans-serif;
-  font-weight: 200;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 500;
   font-style: normal;
-  font-size: 3.8rem;
+  font-size: 3rem;
   color: #ffffff;
   width: 800px;
   text-align: center;
@@ -137,11 +137,11 @@ div#footer {
   }
   button#photo,
   button#dev {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
   i.fas,
   i.fab {
-  color: #ffffff;
-  font-size: 1.5rem;
-}
+    color: #ffffff;
+    font-size: 1.5rem;
+  }
 }
