@@ -62,9 +62,11 @@ figure {
 }
 figure img {
   vertical-align: top;
+  max-width: 370px;
 }
 figure figcaption {
   text-align: center;
+  font-size: 1.3rem;
 }
 
 p.disclaimer {
