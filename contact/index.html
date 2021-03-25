@@ -53,46 +53,43 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-light">
-    <a href="/" class="navbar-brand" id="logo">ANTHONY FREAY</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar7">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="navbar-collapse collapse justify-content-stretch" id="navbar7">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/work" id="alt-page">work</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://madebyfreay.darkroom.tech/" target="_blank" rel="noopener noreferrer"
-            id="alt-page">store</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contact" id="alt-page">contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
   <div class="wrapper">
+    <nav class="navbar navbar-expand-md navbar-light">
+      <a href="/" class="navbar-brand" id="logo">ANTHONY FREAY</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar7">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-stretch" id="navbar7">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/work" id="alt-page">work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://madebyfreay.darkroom.tech/" target="_blank" rel="noopener noreferrer"
+              id="alt-page">store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact" id="current-page">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <div id="bio-img" class="bio">
       <img src="/img/anthonyfreay-bw.jpg" alt="Anthony Freay" id="profile" />
     </div>
 
     <div id="bio-desc" class="bio">
       <p id="intro">
-        Anthony Freay is a photographer & software developer based in New
-        York, NY. He specializes in live music and portraiture photography,
-        with interests in cityscape/street photography as well. Anthony earned
+        Anthony Freay (he/they) is a software developer, graphic designer, and photographer — specializing in live music
+        and lifestyle portraiture – based in New
+        York, NY. Anthony earned
         his Bachelor of Science degree in Computer Science and Bachelor of
-        Arts degree in Psychology from Villanova University('20).
+        Arts degree in Psychology from Villanova University, 2020.
       </p>
 
       <p id="location">
-        Anthony is currently a software developer within the finance industry
-        and is accepting photo roles in the music/entertainment industry and
-        select portrait sessions. For professional inquiries, reach out using
-        the form below or via email.
+        Currently booking for 2021. For professional inquiries, please reach out using the form below or via email.
       </p>
 
       <form id="contact-form" method="POST">
@@ -109,8 +106,9 @@
         <label for="check" class="terms">
           Terms of Service*
           <span class="terms">
-            I understand this is a professional inquiry, not a personal
-            message
+            I understand this form is for professional inquiries regarding photography, graphic design, software
+            development. For personal
+            messages, reach out via social media.
           </span>
         </label>
 
@@ -125,42 +123,56 @@
 
         <input class="submit" type="submit" value="Submit" />
       </form>
+    </div>
 
-      <p class="socials">
+    <div class="push"></div>
+
+    <footer class="footer">
+      <div>&nbsp</div>
+      <div class="work" id="next-gallery">
+        <a href="/live" class="bottom-nav">live</a>
+        <a href="/portraits" class="bottom-nav">portraits</a>
+        <a href="/bw" class="bottom-nav">b&w</a>
+        <a href="/posters" class="bottom-nav">posters</a>
+        <a href="/apparel" class="bottom-nav">apparel</a>
+        <a href="/contact" class="bottom-nav" id="current-page">contact</a>
+      </div>
+
+      <div class="socials">
         <a href="https://twitter.com/anthonyfreay">
           <i class="fab fa-twitter"></i>
         </a>
         <a href="https://www.instagram.com/anthonyfreay">
           <i class="fab fa-instagram"></i>
         </a>
-        <a href="https://www.linkedin.com/in/anthonyfreay">
-          <i class="fab fa-linkedin"></i>
+        <a href="https://www.pinterest.com/anthonybfreay">
+          <i class="fab fa-pinterest"></i>
         </a>
         <a href="mailto:anthonyfreay@gmail.com">
           <i class="fas fa-envelope"></i>
         </a>
-      </p>
-    </div>
-  </div>
+      </div>
+      <div class="copyright">copyright © all rights reserved.</div>
+    </footer>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <script>
-    var contactform = document.getElementById('contact-form');
-    contactform.setAttribute(
-      'action',
-      'https:/' + '/formspree.io/' + 'xd' + 'ow' + 'ep' + 'na'
-    );
-  </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <script>
+      var contactform = document.getElementById('contact-form');
+      contactform.setAttribute(
+        'action',
+        'https:/' + '/formspree.io/' + 'xd' + 'ow' + 'ep' + 'na'
+      );
+    </script>
 </body>
 
 </html>

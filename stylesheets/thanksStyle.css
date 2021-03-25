@@ -35,7 +35,7 @@ div.vertically-center {
 }
 
 p {
-  color: #ffffff;
+  color: #e3dde0;
   text-align: center;
 }
 
@@ -69,13 +69,13 @@ button#dev {
 
 a,
 a:hover {
-  color: #ffffff;
+  color: #e3dde0;
   text-decoration: none !important;
 }
 
 i.fas,
 i.fab {
-  color: #ffffff;
+  color: #e3dde0;
   font-size: 2rem;
   margin: 20px 10px 10px 10px;
 }
@@ -106,7 +106,7 @@ div#footer {
 
   i.fas,
   i.fab {
-    color: #ffffff;
+    color: #e3dde0;
     font-size: 1.5rem;
 
     margin: 10px 10px 35px 10px;

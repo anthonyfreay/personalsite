@@ -1,12 +1,22 @@
 html,
 body {
   background-color: #e3dde0;
-  font-family: brandon-grotesque, sans-serif;
-  font-weight: 500;
+  font-family: mr-eaves-xl-modern, sans-serif;
+  font-weight: 400;
   font-style: normal;
   color: #0b0b0b;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  height: 100vh;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -200px;
+}
+.footer,
+.push {
+  height: 200px;
 }
 
 body::-webkit-scrollbar {
@@ -18,12 +28,16 @@ body::-webkit-scrollbar {
 }
 
 a#logo {
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 1.7rem;
   color: #1b1b1b;
 }
 
-#current-page {
+.nav-link#current-page {
   color: #1b1b1b;
+  text-decoration: underline !important;
 }
 
 #alt-page {
@@ -39,6 +53,7 @@ a#logo {
   font-size: 1.1rem;
   font-family: mr-eaves-xl-modern, sans-serif;
   font-weight: 400;
+  font-style: normal;
   padding: 0px 5px;
 }
 
@@ -118,11 +133,18 @@ a:hover {
   margin: auto;
   width: 50%;
   padding: 10px;
-  width: 290px;
+  width: 100%;
+  background-color: #0b0b0b;
 }
 
 a.bottom-nav {
   color: #05c793;
+  margin: 0 8px 0 0;
+}
+
+a#current-page {
+  color: #e3dde0;
+  text-decoration: underline !important;
   margin: 0 8px 0 0;
 }
 
@@ -138,7 +160,7 @@ div.socials {
 
 i.fas,
 i.fab {
-  color: #0b0b0b;
+  color: #e3dde0;
   font-size: 1.8rem;
 
   margin: 25px 10px 30px 10px;
@@ -146,7 +168,7 @@ i.fab {
 }
 
 .copyright {
-  color: #0b0b0b;
+  color: #e3dde0;
   font-size: 0.8rem;
   text-align: center;
   margin-bottom: 30px;

@@ -13,6 +13,14 @@ body {
   overflow: hidden;
 }
 
+#navbar {
+  background-color: #090909;
+  font-family: mr-eaves-xl-modern, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1rem;
+}
+
 div.main {
   height: 100%;
   position: relative;
@@ -62,8 +70,8 @@ div.title {
   font-family: brandon-grotesque, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 2rem;
-  color: #ffffff;
+  font-size: 4rem;
+  color: #e3dde0;
   width: 800px;
   text-align: center;
 }
@@ -73,22 +81,26 @@ div.buttons {
 
 button#photo,
 button#dev {
-  font-size: 1.5rem;
   font-family: mr-eaves-xl-modern, sans-serif;
-  padding: 5px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  padding: 5px 25px;
   margin: 10px;
+  width: 150px;
+  border-radius: 10px;
 }
 
 a,
 a:hover {
-  color: #ffffff;
+  color: #e3dde0;
   text-decoration: none !important;
 }
 
 i.fas,
 i.fab {
-  color: #ffffff;
-  font-size: 2rem;
+  color: #e3dde0;
+  font-size: 3rem;
   margin: 20px 10px 10px 10px;
 }
 
@@ -102,6 +114,18 @@ div#footer {
   body {
     background-image: url('/img/large-wallpaper-200108-04016.jpg');
   }
+  div.title {
+    font-size: 3.7rem;
+  }
+  button#photo,
+  button#dev {
+    font-size: 1.7rem;
+  }
+  i.fas,
+  i.fab {
+    color: #e3dde0;
+    font-size: 2.5rem;
+  }
 }
 
 @media only screen and (max-width: 841.99999px) {
@@ -111,9 +135,37 @@ div#footer {
   div.title {
     font-size: 3.7rem;
   }
+  button#photo,
+  button#dev {
+    font-size: 1.7rem;
+  }
+  i.fas,
+  i.fab {
+    color: #e3dde0;
+    font-size: 2.5rem;
+  }
 }
 
 @media only screen and (max-width: 668.99999px) {
+  html,
+  body {
+    background-image: url('/img/small-wallpaper-200108-04016.jpg');
+  }
+  div.title {
+    font-size: 2.5rem;
+  }
+  button#photo,
+  button#dev {
+    font-size: 1.5rem;
+  }
+  i.fas,
+  i.fab {
+    color: #e3dde0;
+    font-size: 2.3rem;
+  }
+}
+
+@media only screen and (max-width: 470.99999px) {
   html,
   body {
     background-image: url('/img/small-wallpaper-200108-04016.jpg');
@@ -125,23 +177,9 @@ div#footer {
   button#dev {
     font-size: 1.22rem;
   }
-}
-
-@media only screen and (max-width: 390.99999px) {
-  html,
-  body {
-    background-image: url('/img/small-wallpaper-200108-04016.jpg');
-  }
-  div.title {
-    font-size: 2rem;
-  }
-  button#photo,
-  button#dev {
-    font-size: 0.8rem;
-  }
   i.fas,
   i.fab {
-    color: #ffffff;
-    font-size: 1.5rem;
+    color: #e3dde0;
+    font-size: 1.8rem;
   }
 }
