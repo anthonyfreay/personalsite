@@ -3,7 +3,7 @@ body {
   background-color: #0b0b0b;
   font-family: bebas-neue-pro-expanded, sans-serif;
   font-style: normal;
-  color: #ffffff;
+  color: #e3dde0;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -21,7 +21,7 @@ body::-webkit-scrollbar {
 }
 
 #current-page {
-  color: #ffffff;
+  color: #e3dde0;
 }
 
 #alt-page {
@@ -43,7 +43,7 @@ body::-webkit-scrollbar {
 a,
 a:hover {
   text-decoration: none !important;
-  color: #ffffff;
+  color: #e3dde0;
 }
 
 div.gallery img {
@@ -62,7 +62,7 @@ div#next-gallery {
 
 i.fas,
 i.fab {
-  color: #ffffff;
+  color: #e3dde0;
   font-size: 2rem;
 
   margin: 25px 10px 30px 10px;
@@ -70,7 +70,7 @@ i.fab {
 }
 
 .copyright {
-  color: #ffffff;
+  color: #e3dde0;
   font-size: 1.2rem;
   text-align: center;
   margin-bottom: 30px;
@@ -111,13 +111,13 @@ i.fab {
 #lightbox.active img {
   max-width: 500px;
   cursor: default;
-  border: 5px solid #ffffff;
+  border: 5px solid #e3dde0;
   display: none;
 }
 
 #lightbox.active div {
   border: 15px solid #454545;
-  border-top: 15px solid #ffffff;
+  border-top: 15px solid #e3dde0;
   border-radius: 50%;
   width: 100px;
   height: 100px;
