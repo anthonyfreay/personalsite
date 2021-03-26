@@ -26,7 +26,7 @@ body::-webkit-scrollbar {
 }
 
 #current-page {
-  color: #e3dde0;
+  color: #dedfdd;
 }
 
 #alt-page {
@@ -39,7 +39,7 @@ body::-webkit-scrollbar {
 }
 
 .links a {
-  color: #e3dde0;
+  color: #dedfdd;
   font-size: 3rem;
   font-family: mr-eaves-xl-modern, sans-serif;
   text-decoration: none !important;
@@ -60,7 +60,7 @@ body::-webkit-scrollbar {
 a,
 a:hover,
 div {
-  color: #e3dde0;
+  color: #dedfdd;
   text-decoration: none !important;
 }
 
@@ -72,7 +72,7 @@ div#links {
 
 i.fas,
 i.fab {
-  color: #e3dde0;
+  color: #dedfdd;
   margin: 20px 10px 40px 10px;
   text-align: center;
 }

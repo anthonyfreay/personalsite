@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #e3dde0;
+  background-color: #dedfdd;
   font-family: mr-eaves-xl-modern, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -24,7 +24,7 @@ body::-webkit-scrollbar {
 }
 
 #navbar {
-  background-color: #e3dde0;
+  background-color: #dedfdd;
 }
 
 a#logo {
@@ -145,7 +145,7 @@ a.bottom-nav {
 }
 
 a#current-page {
-  color: #e3dde0;
+  color: #dedfdd;
   text-decoration: underline !important;
   margin: 0 8px 0 0;
 }
@@ -162,7 +162,7 @@ div.socials {
 
 i.fas,
 i.fab {
-  color: #e3dde0;
+  color: #dedfdd;
   font-size: 1.8rem;
 
   margin: 25px 10px 30px 10px;
@@ -170,7 +170,7 @@ i.fab {
 }
 
 .copyright {
-  color: #e3dde0;
+  color: #dedfdd;
   font-size: 0.8rem;
   text-align: center;
   margin-bottom: 30px;
