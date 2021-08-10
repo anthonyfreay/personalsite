@@ -70,7 +70,7 @@ div.title {
   font-family: brandon-grotesque, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 3.1rem;
   color: #dedfdd;
   width: 800px;
   text-align: center;
@@ -84,11 +84,11 @@ button#dev {
   font-family: mr-eaves-xl-modern, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 2rem;
+  font-size: 1.6rem;
   padding: 5px 25px;
   margin: 10px;
-  width: 150px;
-  border-radius: 10px;
+  width: 155px;
+  border-radius: 150px;
 }
 
 a,
@@ -100,7 +100,7 @@ a:hover {
 i.fas,
 i.fab {
   color: #dedfdd;
-  font-size: 3rem;
+  font-size: 2.1rem;
   margin: 20px 10px 10px 10px;
 }
 
@@ -115,16 +115,16 @@ div#footer {
     background-image: url('/img/large-wallpaper-200108-04016.jpg');
   }
   div.title {
-    font-size: 3.7rem;
+    font-size: 3rem;
   }
   button#photo,
   button#dev {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   i.fas,
   i.fab {
     color: #dedfdd;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -133,16 +133,16 @@ div#footer {
     background-image: url('/img/medium-wallpaper-200108-04016.jpg');
   }
   div.title {
-    font-size: 3.7rem;
+    font-size: 3rem;
   }
   button#photo,
   button#dev {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   i.fas,
   i.fab {
     color: #dedfdd;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -152,16 +152,16 @@ div#footer {
     background-image: url('/img/small-wallpaper-200108-04016.jpg');
   }
   div.title {
-    font-size: 2.5rem;
+    font-size: 2.9rem;
   }
   button#photo,
   button#dev {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   i.fas,
   i.fab {
     color: #dedfdd;
-    font-size: 2.3rem;
+    font-size: 1.9rem;
   }
 }
 
@@ -172,11 +172,11 @@ div#footer {
   }
 
   div.title {
-    font-size: 2rem;
+    font-size: 2.1rem;
   }
   button#photo,
   button#dev {
-    font-size: 1.22rem;
+    font-size: 1.1rem;
   }
   i.fas,
   i.fab {
