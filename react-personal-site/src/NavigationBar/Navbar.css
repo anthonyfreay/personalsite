@@ -1,0 +1,41 @@
+:root {
+    --mainColorLight: #F5F5F5;
+    --mainColorDark: #333333;
+    --textColor: #0e0e0e;
+    --accentColor1: #3498db;
+    --accentColor2: #2ecc71;
+}
+
+.navbar {
+    padding: 5px 10px;
+    color: var(--textColor);
+    background-color: var(--mainColorLight);
+}
+
+.navbar-brand {
+    padding: 5px 10px;
+    margin: 5px 10px;
+    font-size: 1.8rem;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+.navbar-collapse.collapse.show {
+    display: flex;
+    justify-content: left;
+}
+
+.nav-items {
+    margin: 0px 10px;
+    font-size: 1.1rem;
+    color: var(--accentColor1);
+}
+
+.nav-items:hover {
+    margin: 0px 10px;
+    color: var(--textColor);
+}
