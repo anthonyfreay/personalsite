@@ -1,0 +1,52 @@
+@import '../../../App.css';
+
+.navbar {
+    padding: 5px 10px;
+    color: var(--textColor);
+    background-color: var(--mainColorLight);
+}
+
+.navbar-brand {
+    padding: 5px 10px;
+    margin: 5px 10px;
+    font-size: 1.8rem;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+.navbar-collapse.collapse.show {
+    display: flex;
+    justify-content: left;
+}
+
+
+.nav-item {
+    margin: 0px 10px;
+    font-size: 1.1rem;
+    color: var(--accentColor1);
+}
+
+.nav-item:hover {
+    color: var(--textColor);
+}
+
+.home-navbar {
+    background-color: transparent;
+    color: var(--mainColorLight);
+}
+
+.home-nav-item {
+    margin: 0px 5px;
+    color: var(--mainColorLight);
+    font-family: var(--fontFamily);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.home-nav-item:hover {
+    color: var(--accentColor1);
+}
