@@ -1,7 +1,6 @@
 @import '../../../App.css';
 
-html,
-body {
+.main {
     height: 100%;
     background-image: url('./img/compressed-wallpaper-200108-04016.jpg');
     background-position: center center;
@@ -54,7 +53,7 @@ body {
     animation: fadeInUp 1s ease-out forwards;
 }
 
-.brand-logo a {
+.brandLogo a {
     font-size: 3.1rem;
     font-style: italic;
     font-weight: 600;
@@ -64,12 +63,12 @@ body {
     margin: 10px;
 }
 
-.enter-button {
+.enterButton {
     font-weight: 400;
     font-style: italic;
     font-size: 1.3rem;
     padding: 5px 25px;
-    margin: 10px;
+    margin: 10px 10px 15px 10px;
     width: 10rem;
     height: 50px;
     border-radius: 150px;
@@ -82,26 +81,22 @@ body {
     }
 }
 
-.enter-button-text {
+.enterButtonText {
     text-decoration: none;
     color: var(--mainColorDark);
 }
 
-#footer {
-    margin: 5px 10px;
-}
-
 @media only screen and (max-width: 1367.99999px) {
-    body {
+    .main {
         background-image: url('./img/large-wallpaper-200108-04016.jpg');
     }
 
-    .brand-logo a {
+    .brandLogo a {
         font-size: 3rem;
     }
 
-    .enter-button,
-    .enter-button-text {
+    .enterButton,
+    .enterButtonText {
         font-size: 1.5rem;
     }
 
@@ -112,18 +107,17 @@ body {
 }
 
 @media only screen and (max-width: 841.99999px) {
-    body {
+    .main {
         background-image: url('./img/medium-wallpaper-200108-04016.jpg');
     }
 
-    .brand-logo a {
+    .brandLogo a {
         font-size: 3rem;
     }
 
-    .enter-button,
-    .enter-button-text {
+    .enterButton,
+    .enterButtonText {
         font-size: 1.5rem;
-        width: 12rem;
     }
 
     .icon {
@@ -134,19 +128,17 @@ body {
 
 @media only screen and (max-width: 668.99999px) {
 
-    html,
-    body {
+    .main {
         background-image: url('./img/small-wallpaper-200108-04016.jpg');
     }
 
-    .brand-logo a {
+    .brandLogo a {
         font-size: 2.9rem;
     }
 
-    .enter-button,
-    .enter-button-text {
+    .enterButton,
+    .enterButtonText {
         font-size: 1.4rem;
-        width: 10rem;
     }
 
     .icon {
@@ -157,20 +149,17 @@ body {
 
 @media only screen and (max-width: 470.99999px) {
 
-    html,
-    body {
+    .main {
         background-image: url('./img/small-wallpaper-200108-04016.jpg');
     }
 
-    .brand-logo a {
-        font-size: 2.1rem;
+    .brandLogo a {
+        font-size: 2.5rem;
     }
 
-    .enter-button,
-    .enter-button-text {
-        font-size: 1.1rem;
-        width: 8rem;
-        height: 3rem;
+    .enterButton,
+    .enterButtonText {
+        font-size: 1.2rem;
     }
 
     .icon {

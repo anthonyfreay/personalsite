@@ -18,7 +18,8 @@
     padding: 10px 20px;
 }
 
-.navbar-collapse.collapse.show {
+.navbar-collapse.collapse.show,
+.navbar-collapse.collapse.collapsed {
     display: flex;
     justify-content: left;
 }

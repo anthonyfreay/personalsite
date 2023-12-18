@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../../Util/Navbar/Navbar'
 import { Link } from 'react-router-dom'
+import Footer from '../../Util/Footer/Footer'
+import WorkStyle from "./Work.module.css"
 
 const Work = () => {
     return (
@@ -12,7 +14,7 @@ const Work = () => {
             <button className='enter-button'><Link to="/posters">Posters</Link></button>
             <button className='enter-button'><Link to="/apparel">Apparel</Link></button>
             <button className='enter-button'><Link to="/bw">Black n White</Link></button>
-
+            <Footer className={WorkStyle.footer} />
         </div>
     );
 };
