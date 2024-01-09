@@ -6,8 +6,9 @@
     --mainColorLight: #F5F5F5;
     --mainColorDark: #090909;
     --textColor: #0e0e0e;
-    --accentColor1: #3498db;
+    --accentColor1: #54c6eb;
     --accentColor2: #2ecc71;
+    --accentColor3: #e87461;
     --overlayColor: rgba(14, 14, 14, 0.5);
     --fontFamily: 'Poppins', sans-serif;
 }
@@ -16,7 +17,7 @@ html,
 body {
     background-color: var(--mainColorLight);
     font-family: var(--fontFamily);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* Other component-specific styles can go here */

@@ -1,18 +1,18 @@
 import { Navbar, Nav } from "react-bootstrap";
-import "./Navbar.css"
+import NavStyle from "./Navbar.module.css"
 
 function HomeNavbar() {
     return (
-        <Navbar expand={true} className="home-navbar">
-            <Navbar.Toggle aria-controls="basic-navbar-nav" className="home-navbar-toggle" />
+        <Navbar expand={true} className={NavStyle.homeNavbar}>
+            < Navbar.Toggle aria-controls="basic-navbar-nav" className={NavStyle.homeNavbarToggle} />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Link href="/work" className="home-nav-item">Resume</Nav.Link>
-                    <Nav.Link href="/store" className="home-nav-item">LinkedIn</Nav.Link>
-                    <Nav.Link href="/contact" className="home-nav-item">GitHub</Nav.Link>
+                    <Nav.Link href="/work" className={NavStyle.homeNavItem}>Resume</Nav.Link>
+                    <Nav.Link href="/store" className={NavStyle.homeNavItem}>LinkedIn</Nav.Link>
+                    <Nav.Link href="/contact" className={NavStyle.homeNavItem}>GitHub</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
-        </Navbar>
+        </Navbar >
     );
 }
 export default HomeNavbar;

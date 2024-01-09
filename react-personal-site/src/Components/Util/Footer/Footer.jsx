@@ -1,22 +1,23 @@
 import React from 'react';
-import { FaRegEnvelope, FaInstagram, FaPinterest } from 'react-icons/fa';
-import './Footer.css'
+import FooterStyles from './Footer.module.css'
+import { Link } from 'react-router-dom'
+import Icons from '../Icons/Icons';
+
 
 function Footer() {
     return (
-        <div className="container footer" id="footer">
-            <div className="icons">
-                <a href="mailto:anthonyfreay@gmail.com" aria-label="Email" className='icon'>
-                    <FaRegEnvelope size={35} />
-                </a>
-                <a href="https://www.instagram.com/anthonyfreay" aria-label="Visit Instagram Profile" className='icon'>
-                    <FaInstagram size={35} />
-                </a>
-                <a href="https://www.pinterest.com/anthonybfreay" aria-label="View Pinterest Board" className='icon'>
-                    <FaPinterest size={35} />
-                </a>
+        <div className={`${FooterStyles.footer} ${FooterStyles.container}`} id={FooterStyles.footer}>
+            <div className={FooterStyles.pageSection}>
+                <Link to="/live" className={FooterStyles.pages} >live</Link>
+                <Link to="/portraits" className={FooterStyles.pages}>portraits</Link>
+                <Link to="/bw" className={FooterStyles.pages} >b&w</Link>
+                <Link to="/posters" className={FooterStyles.pages}>posters</Link>
+                <Link to="/apparel" className={FooterStyles.pages}>apparel</Link>
+                <Link to="/contact" className={FooterStyles.pages}>contact</Link>
             </div>
-        </div>
+            <Icons className={FooterStyles.icons} iconSize={30} />
+            <p className={FooterStyles.copyright}>copyright © all rights reserved.</p>
+        </div >
     );
 }
 

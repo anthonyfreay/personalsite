@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import HomeNavbar from '../../Util/Navbar/HomeNavbar'
 import HomeStyle from './Home.module.css';
-import Footer from '../../Util/Footer/Footer';
+import Icons from '../../Util/Icons/Icons';
 
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
                     <h1 className={HomeStyle.brandLogo}><Link to="/">Anthony Freay</Link></h1>
                     <Link to="/work" className={HomeStyle.enterButtonText}><button className={HomeStyle.enterButton}>
                         Enter</button></Link>
-                    <Footer className={HomeStyle.footer} />
+                    <Icons className={HomeStyle.icons} />
                 </div>
             </div>
         </div>

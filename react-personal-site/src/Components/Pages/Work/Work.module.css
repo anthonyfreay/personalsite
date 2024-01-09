@@ -1,5 +1,42 @@
 @import '../../../App.css';
 
-.footer {
+html,
+body {
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 13x00px;
+    margin: 0 auto;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.coverImage figcaption {
+    text-decoration: none;
     color: var(--mainColorDark);
+    text-align: center;
+    width: 370px;
+}
+
+.coverImage figure {
+    width: calc(50% - 20px);
+    display: block;
+    text-align: center;
+}
+
+.coverImage img {
+    width: 370px;
+    height: 370px;
+    object-fit: cover;
+    margin: 10px 5px;
 }

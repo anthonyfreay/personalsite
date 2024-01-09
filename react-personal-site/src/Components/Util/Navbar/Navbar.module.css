@@ -6,11 +6,33 @@
     background-color: var(--mainColorLight);
 }
 
-.navbar-brand {
+.navContainer {
+    display: flex;
+    justify-content: flex-end;
+    /* Align items to the right */
+}
+
+
+.navbarBrand {
     padding: 5px 10px;
     margin: 5px 10px;
     font-size: 1.8rem;
+
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: none;
 }
+
+.activeNavLink {
+    color: var(--mainColorDark) !important;
+    text-decoration: underline;
+}
+
+.activeNavLink:hover {
+    color: var(--accentColor3) !important;
+    text-decoration: underline;
+}
+
 
 .navbar-collapse {
     display: flex;
@@ -25,22 +47,22 @@
 }
 
 
-.nav-item {
+.navItem {
     margin: 0px 10px;
     font-size: 1.1rem;
     color: var(--accentColor1);
 }
 
-.nav-item:hover {
-    color: var(--textColor);
+.navItem:hover {
+    color: var(--accentColor3);
 }
 
-.home-navbar {
+.homeNavbar {
     background-color: transparent;
     color: var(--mainColorLight);
 }
 
-.home-nav-item {
+.homeNavItem {
     margin: 0px 5px;
     color: var(--mainColorLight);
     font-family: var(--fontFamily);
@@ -48,6 +70,6 @@
     font-weight: 500;
 }
 
-.home-nav-item:hover {
+.homeNavItem:hover {
     color: var(--accentColor1);
 }

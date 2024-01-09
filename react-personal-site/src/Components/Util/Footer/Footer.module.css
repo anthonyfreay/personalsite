@@ -1,0 +1,28 @@
+.footer {
+    background-color: var(--mainColorDark);
+    padding: 20px 10px;
+}
+
+.pageSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages {
+    color: #05c793;
+    text-decoration: none;
+    padding: 20px 5px;
+    margin: 0 10px;
+}
+
+.icons {
+    size: 1000000px;
+}
+
+.copyright {
+    color: var(--mainColorLight);
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 20px 10px;
+}
