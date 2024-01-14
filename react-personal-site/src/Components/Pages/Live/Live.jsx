@@ -36,7 +36,7 @@ const Live = () => {
             <div className={LiveStyle.mainContent}>
                 <ImageGallery images={imageData} />
             </div>
-            <Footer className={LiveStyle.footer} />
+            <Footer className={LiveStyle.footer} activePage={"live"} />
         </div>
     );
 };

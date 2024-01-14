@@ -17,7 +17,4 @@ html,
 body {
     background-color: var(--mainColorLight);
     font-family: var(--fontFamily);
-    /* overflow: hidden; */
 }
-
-/* Other component-specific styles can go here */

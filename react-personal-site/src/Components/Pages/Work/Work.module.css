@@ -5,6 +5,10 @@ body {
     overflow: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -15,28 +19,53 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 13x00px;
+    max-width: 1300px;
     margin: 0 auto;
     flex: 1;
     overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.coverImage {
+    height: fit-content;
+}
+
+.coverImage figcaption {
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+    /* CSS3 Property */
+    text-decoration-style: none !important;
+    text-decoration-color: transparent !important;
+}
+
+.mainContent .coverImage figcaption {
+    text-decoration: none;
 }
 
 .coverImage figcaption {
     text-decoration: none;
     color: var(--mainColorDark);
     text-align: center;
-    width: 370px;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 10px;
 }
 
 .coverImage figure {
-    width: calc(50% - 20px);
+    width: 100%;
     display: block;
     text-align: center;
+    margin: 10px;
 }
 
 .coverImage img {
-    width: 370px;
-    height: 370px;
+    width: 400px;
+    max-height: 400px;
     object-fit: cover;
     margin: 10px 5px;
+}
+
+/* Accessibility */
+.coverImage img:focus {
+    outline: 2px solid var(--mainColorDark);
 }

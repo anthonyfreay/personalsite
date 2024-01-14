@@ -13,10 +13,10 @@
 }
 
 
-.navbarBrand {
+.navBrand {
     padding: 5px 10px;
     margin: 5px 10px;
-    font-size: 1.8rem;
+    font-size: 2rem;
 
     font-style: italic;
     font-weight: 600;
@@ -30,26 +30,12 @@
 
 .activeNavLink:hover {
     color: var(--accentColor3) !important;
-    text-decoration: underline;
-}
-
-
-.navbar-collapse {
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px 20px;
-}
-
-.navbar-collapse.collapse.show,
-.navbar-collapse.collapse.collapsed {
-    display: flex;
-    justify-content: left;
 }
 
 
 .navItem {
     margin: 0px 10px;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: var(--accentColor1);
 }
 
@@ -66,7 +52,7 @@
     margin: 0px 5px;
     color: var(--mainColorLight);
     font-family: var(--fontFamily);
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 

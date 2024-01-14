@@ -1,0 +1,51 @@
+@import '../../../App.css';
+
+html,
+body {
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: 0 auto;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.bioContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    max-width: 3000px;
+}
+
+.bioImage {
+    flex-basis: 30%;
+    max-width: 500px;
+    margin: 10px 10px;
+}
+
+.bioDescription {
+    flex-basis: 30%;
+    max-width: 700px;
+    margin: 10px 10px;
+}
+
+@media (max-width: 850px) {
+    .bioContainer {
+        flex-direction: column;
+    }
+}

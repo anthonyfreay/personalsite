@@ -4,7 +4,7 @@ import NavStyle from "./Navbar.module.css";
 function NavBar({ activePage }) {
     return (
         <Navbar expand="lg" className={NavStyle.navbar}>
-            <Navbar.Brand href="/">Anthony Freay</Navbar.Brand>
+            <Navbar.Brand href="/" className={NavStyle.navBrand}>Anthony Freay</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className={`${NavStyle.navContainer} ml-auto`}>
@@ -12,7 +12,7 @@ function NavBar({ activePage }) {
                         href="/work"
                         className={`${NavStyle.navItem} ${activePage === 'work' ? NavStyle.activeNavLink : ''}`}
                     >
-                        work
+                        Work
                     </Nav.Link>
                     <Nav.Link
                         href="https://anthonyfreay.darkroom.com/"
@@ -20,13 +20,13 @@ function NavBar({ activePage }) {
                         rel="noopener noreferrer"
                         className={`${NavStyle.navItem} ${activePage === 'store' ? NavStyle.activeNavLink : ''}`}
                     >
-                        store
+                        Store
                     </Nav.Link>
                     <Nav.Link
                         href="/contact"
                         className={`${NavStyle.navItem} ${activePage === 'contact' ? NavStyle.activeNavLink : ''}`}
                     >
-                        contact
+                        Contact
                     </Nav.Link>
                 </Nav>
             </Navbar.Collapse>
