@@ -19,7 +19,10 @@ const Posters = () => {
         { alt: "Poster inspired by Waves of Blue - Majid Jordan", src: "posters/wob-mockup.jpg" },
         { alt: "Poster inspired by Motive – Arian Grande, Doja Cat", src: "posters/motive-mockup.jpg" },
         { alt: "Poster inspired by political decisions made by men on women's autonomy", src: "posters/menSTFU-mockup.jpg" }
-    ];
+    ].map(image => ({
+        ...image,
+        hdSrc: image.src.replace(/(\.\w+)$/, '-hd$1') // Append '-hd' before the file extension
+    }));
 
 
     return (

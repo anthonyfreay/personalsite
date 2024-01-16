@@ -13,7 +13,10 @@ const Apparel = () => {
         { alt: "Inspired by Good Days", src: "apparel/WAR-IN-My-MIND_TSHIRT_MOCKUP.jpg" },
         { alt: "Inspired by Sweet Life", src: "apparel/SWEET-LIFE_TSHIRT_MOCKUP.jpg" },
         { alt: "Inspired by Fun Girl", src: "apparel/FUN-GIRL_TSHIRT_MOCKUP.jpg" }
-    ];
+    ].map(image => ({
+        ...image,
+        hdSrc: image.src.replace(/(\.\w+)$/, '-hd$1') // Append '-hd' before the file extension
+    }));
 
     return (
         <div className={ApparelStyle.container}>

@@ -27,7 +27,10 @@ const Live = () => {
         { alt: "Sango", src: "/live/A7206805-music.jpg" },
         { alt: "Olu", src: "/live/RX703590-music.jpg" },
         { alt: "Nicki Minaj", src: "/live/RX709090-music.jpg" }
-    ];
+    ].map(image => ({
+        ...image,
+        hdSrc: image.src.replace(/(\.\w+)$/, '-hd$1') // Append '-hd' before the file extension
+    }));
 
 
     return (

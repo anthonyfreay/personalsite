@@ -19,7 +19,10 @@ const BlackWhite = () => {
         { alt: "Over-looked", src: "bw/DSC01515-bw.jpg" },
         { alt: "Saron Crenshaw", src: "bw/A7207520-bw.jpg" },
         { alt: "Defund the Police", src: "bw/DSC02466-bw.jpg" }
-    ];
+    ].map(image => ({
+        ...image,
+        hdSrc: image.src.replace(/(\.\w+)$/, '-hd$1') // Append '-hd' before the file extension
+    }));
 
     return (
         <div className={BlackWhiteStyle.container}>

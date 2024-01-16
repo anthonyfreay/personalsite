@@ -19,7 +19,10 @@ const Portraits = () => {
         { alt: "Dajee at Untermyer Gardens", src: "portraits/A7205925-portrait.jpg" },
         { alt: "Beth on a morning walk", src: "portraits/A7204948-Edit-portrait.jpg" },
         { alt: "Camille in Studio", src: "portraits/A7201742-Edit-portrait.jpg" }
-    ];
+    ].map(image => ({
+        ...image,
+        hdSrc: image.src.replace(/(\.\w+)$/, '-hd$1') // Append '-hd' before the file extension
+    }));
 
     return (
         <div className={PortraitsStyle.container}>
