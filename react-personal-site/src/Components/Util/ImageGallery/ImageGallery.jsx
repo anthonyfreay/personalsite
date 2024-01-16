@@ -9,7 +9,6 @@ const ImageGallery = memo(({ images }) => {
     const [activeImage, setActiveImage] = useState(0);
 
     const openLightbox = useCallback((index) => {
-        console.log('Opening Lightbox with HD image:', images[index].hdSrc); // Log the HD source
         setActiveImage(index);
         setLightboxOpen(true);
     }, [images]);
@@ -28,7 +27,6 @@ const ImageGallery = memo(({ images }) => {
         <div>
             <div className={ImageGalleryStyle.gallery}>
                 {images.map((image, index) => {
-                    console.log('Gallery image source:', image.src); // Log each image source in the gallery
                     return (
                         <div key={image.src} className={ImageGalleryStyle.galleryItem} onClick={() => openLightbox(index)}>
                             <LazyLoadImage
