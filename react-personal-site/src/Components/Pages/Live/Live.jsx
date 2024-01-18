@@ -1,4 +1,5 @@
 import React from 'react'
+import PageHeader from '../../Util/PageHeader/PageHeader';
 import Navbar from '../../Util/Navbar/Navbar'
 import LiveStyle from "./Live.module.css"
 import ImageGallery from '../../Util/ImageGallery/ImageGallery';
@@ -35,6 +36,7 @@ const Live = () => {
 
     return (
         <div className={LiveStyle.container}>
+            <PageHeader title="Live | Anthony Freay" />
             <Navbar className={LiveStyle.navBar} />
             <div className={LiveStyle.mainContent}>
                 <ImageGallery images={imageData} />

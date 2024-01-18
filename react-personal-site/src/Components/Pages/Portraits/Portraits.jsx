@@ -1,4 +1,5 @@
 import React from 'react'
+import PageHeader from '../../Util/PageHeader/PageHeader';
 import Navbar from '../../Util/Navbar/Navbar'
 import PortraitsStyle from "./Portraits.module.css"
 import ImageGallery from '../../Util/ImageGallery/ImageGallery';
@@ -26,6 +27,7 @@ const Portraits = () => {
 
     return (
         <div className={PortraitsStyle.container}>
+            <PageHeader title="Portraits | Anthony Freay" />
             <Navbar className={PortraitsStyle.navBar} />
             <div className={PortraitsStyle.mainContent}>
                 <ImageGallery images={imageData} />

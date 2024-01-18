@@ -9,9 +9,7 @@
 .navContainer {
     display: flex;
     justify-content: flex-end;
-    /* Align items to the right */
 }
-
 
 .navBrand {
     padding: 5px 10px;
@@ -31,7 +29,6 @@
 .activeNavLink:hover {
     color: var(--accentColor3) !important;
 }
-
 
 .navItem {
     margin: 0px 10px;
@@ -58,4 +55,38 @@
 
 .homeNavItem:hover {
     color: var(--accentColor1);
+}
+
+a.navItem {
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+
+a.homeNavItem {
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+
+@media only screen and (max-width: 1367.99999px) {}
+
+@media only screen and (max-width: 841.99999px) {
+    .homeNavItem {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 668.99999px) {
+    .homeNavItem {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 470.99999px) {
+    .homeNavItem {
+        font-size: 0.8rem;
+    }
+
+    .navBrand {
+        font-size: 1.8rem;
+    }
 }

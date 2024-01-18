@@ -1,4 +1,5 @@
 import React from 'react'
+import PageHeader from '../../Util/PageHeader/PageHeader';
 import Navbar from '../../Util/Navbar/Navbar'
 import BlackWhiteStyle from "./BlackWhite.module.css"
 import ImageGallery from '../../Util/ImageGallery/ImageGallery';
@@ -26,6 +27,7 @@ const BlackWhite = () => {
 
     return (
         <div className={BlackWhiteStyle.container}>
+            <PageHeader title="Black & White | Anthony Freay" />
             <Navbar className={BlackWhiteStyle.navBar} />
             <div className={BlackWhiteStyle.mainContent}>
                 <ImageGallery images={imageData} />

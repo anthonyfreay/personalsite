@@ -11,7 +11,7 @@ const ImageGallery = memo(({ images }) => {
     const openLightbox = useCallback((index) => {
         setActiveImage(index);
         setLightboxOpen(true);
-    }, [images]);
+    }, []);
 
     const closeLightbox = useCallback(() => {
         setLightboxOpen(false);
@@ -46,6 +46,7 @@ const ImageGallery = memo(({ images }) => {
                     open={lightboxOpen}
                     activeImage={activeImage}
                     onClose={closeLightbox}
+                    animation={{ fade: 0 }}
                 />
             )}
         </div>
@@ -62,6 +63,7 @@ const LightboxComponent = ({ images, open, activeImage, onClose }) => {
                 controller={{ closeOnBackdropClick: true }}
                 close={onClose}
                 className={ImageGalleryStyle.lightbox}
+                animation={{ swipe: 0 }}
             />
         </div>
     );

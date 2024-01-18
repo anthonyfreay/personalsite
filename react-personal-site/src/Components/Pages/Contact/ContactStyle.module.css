@@ -42,10 +42,23 @@ body {
     flex-basis: 30%;
     max-width: 700px;
     margin: 10px 10px;
+    font-size: 14px;
+
+
+    p {
+        text-justify: inter-word;
+    }
 }
 
-@media (max-width: 850px) {
+@media only screen and (max-width: 470.99999px) {
     .bioContainer {
         flex-direction: column;
+    }
+
+    .bioImage,
+    .bioDescription {
+        /* Adjust width to fit the column layout */
+        flex-basis: 20%;
+        max-width: 100%;
     }
 }

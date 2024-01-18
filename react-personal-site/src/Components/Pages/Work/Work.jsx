@@ -1,15 +1,16 @@
 import React from 'react';
+import PageHeader from '../../Util/PageHeader/PageHeader';
 import Navbar from '../../Util/Navbar/Navbar';
 import { Link } from 'react-router-dom';
 import Footer from '../../Util/Footer/Footer';
 import WorkStyle from "./Work.module.css";
 
 const categories = [
-    { path: '/live', image: "covers/live_cover.jpg", label: 'live' },
-    { path: '/bw', image: "covers/bw_cover.jpg", label: 'b&w' },
-    { path: '/portraits', image: "covers/portrait_cover.jpg", label: 'portraits' },
-    { path: '/posters', image: "covers/poster_cover.jpg", label: 'posters' },
-    { path: '/apparel', image: "covers/apparel_cover.jpg", label: 'apparel' }
+    { path: '/live', image: "covers/live_cover.jpg", label: 'Live' },
+    { path: '/bw', image: "covers/bw_cover.jpg", label: 'B & W' },
+    { path: '/portraits', image: "covers/portrait_cover.jpg", label: 'Portraits' },
+    { path: '/posters', image: "covers/poster_cover.jpg", label: 'Posters' },
+    { path: '/apparel', image: "covers/apparel_cover.jpg", label: 'Apparel' }
 ];
 
 const CategoryLink = ({ path, image, label }) => (
@@ -24,6 +25,7 @@ const CategoryLink = ({ path, image, label }) => (
 const Work = () => {
     return (
         <div className={WorkStyle.container}>
+            <PageHeader title="Work | Anthony Freay" />
             <Navbar className={WorkStyle.navBar} activePage="work" />
             <div className={WorkStyle.mainContent}>
                 {categories.map((category) => (

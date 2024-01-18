@@ -1,4 +1,5 @@
 import React from 'react'
+import PageHeader from '../../Util/PageHeader/PageHeader';
 import Navbar from '../../Util/Navbar/Navbar'
 import PostersStyle from "./Posters.module.css"
 import ImageGallery from '../../Util/ImageGallery/ImageGallery';
@@ -27,6 +28,7 @@ const Posters = () => {
 
     return (
         <div className={PostersStyle.container}>
+            <PageHeader title="Posters | Anthony Freay" />
             <Navbar className={PostersStyle.navBar} />
             <div className={PostersStyle.mainContent}>
                 <ImageGallery images={imageData} />

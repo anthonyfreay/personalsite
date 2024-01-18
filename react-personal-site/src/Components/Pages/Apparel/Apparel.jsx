@@ -1,4 +1,5 @@
 import React from 'react'
+import PageHeader from '../../Util/PageHeader/PageHeader';
 import Navbar from '../../Util/Navbar/Navbar'
 import ApparelStyle from "./Apparel.module.css"
 import ImageGallery from '../../Util/ImageGallery/ImageGallery';
@@ -20,6 +21,7 @@ const Apparel = () => {
 
     return (
         <div className={ApparelStyle.container}>
+            <PageHeader title="Apparel | Anthony Freay" />
             <Navbar className={ApparelStyle.navBar} />
             <div className={ApparelStyle.mainContent}>
                 <ImageGallery images={imageData} />

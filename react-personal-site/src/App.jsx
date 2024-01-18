@@ -1,5 +1,6 @@
-import React, { Suspense, lazy } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React, { Suspense, lazy, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import ReactGA from 'react-ga4';
 import './App.css';
 
 // Lazy-loaded components
@@ -14,10 +15,30 @@ const Posters = lazy(() => import('./Components/Pages/Posters/Posters'));
 const Resume = lazy(() => import('./Components/Pages/Resume/Resume'));
 const Portraits = lazy(() => import('./Components/Pages/Portraits/Portraits'));
 
+const initializeGA = () => {
+  ReactGA.initialize('G-5RYLFVDX71');
+};
+
+const TrackPageViews = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: location.pathname });
+  }, [location]);
+
+  return null;
+};
+
 function App() {
+
+  useEffect(() => {
+    initializeGA();
+  }, []);
+
   return (
     <Router>
       <Suspense fallback={<div>Loading...</div>}>
+        <TrackPageViews />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<Contact />} />

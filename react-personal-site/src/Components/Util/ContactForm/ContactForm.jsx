@@ -1,12 +1,28 @@
-import React from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import ContactFormStyle from './ContactForm.module.css';
 
 const ContactForm = () => {
+    const [formKey, setFormKey] = useState(Date.now());
+    const [showThankYou, setShowThankYou] = useState(false);
     const [state, handleSubmit] = useForm("xdowepna");
+    const formRef = useRef();
+
+    useEffect(() => {
+        if (state.succeeded) {
+            setShowThankYou(true);
+            formRef.current.reset();
+            setFormKey(Date.now());
+        }
+    }, [state.succeeded]);
+
+    const handleOnSubmit = async (e) => {
+        e.preventDefault();
+        await handleSubmit(e);
+    };
 
     return (
-        <form className={ContactFormStyle.contactForm} onSubmit={handleSubmit}>
+        <form key={formKey} ref={formRef} className={ContactFormStyle.contactForm} onSubmit={handleOnSubmit}>
             <input className={ContactFormStyle.name} id="fname" type="text" name="fname" placeholder="First Name*" required />
             <ValidationError field="fname" prefix="First Name" errors={state.errors} />
 
@@ -36,9 +52,9 @@ const ContactForm = () => {
 
             <button type="submit" className={ContactFormStyle.submit} disabled={state.submitting}>Submit</button>
 
-            {state.succeeded && (
-                <p className={`${ContactFormStyle.thankYouMessage} ${state.succeeded ? ContactFormStyle['thankYouMessage-active'] : ''}`}>
-                    Thanks for your message!
+            {showThankYou && (
+                <p className={`${ContactFormStyle.thankYouMessage} ${showThankYou ? ContactFormStyle['thankYouMessage-active'] : ''}`}>
+                    Thanks for reaching out! <br />Please refresh to send a new message.
                 </p>
             )}
         </form>

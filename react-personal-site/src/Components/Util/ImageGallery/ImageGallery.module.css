@@ -37,4 +37,27 @@ body {
 
 .lightbox {
     --yarl__color_backdrop: var(--overlayColor);
+
+    img {
+        border: 50px solid white !important;
+    }
+}
+
+@media only screen and (max-width: 470.99999px) {
+    .gallery {
+        max-width: 100%;
+        justify-content: space-around;
+
+        img {
+            max-width: 160px;
+            height: 100%;
+        }
+    }
+
+    .lightbox {
+        img {
+            border: 30px solid white !important;
+        }
+    }
+
 }

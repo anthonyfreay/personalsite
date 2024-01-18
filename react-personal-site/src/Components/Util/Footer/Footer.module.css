@@ -19,10 +19,6 @@
     margin: 0 10px;
 }
 
-.icons {
-    size: 1000000px;
-}
-
 .copyright {
     color: var(--mainColorLight);
     text-align: center;
@@ -30,7 +26,22 @@
     padding: 20px 10px;
 }
 
-.active {
+.footerActive {
     color: var(--mainColorLight);
-    text-decoration: underline;
+}
+
+.pages:hover {
+    color: var(--accentColor3)
+}
+
+@media only screen and (max-width: 470.99999px) {
+    .footer {
+        max-width: 100%;
+    }
+
+    .pages {
+        font-size: 0.8rem;
+        padding: 10px 0px;
+        margin: 0 5px;
+    }
 }

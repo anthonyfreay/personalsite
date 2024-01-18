@@ -14,14 +14,14 @@ function NavBar({ activePage }) {
                     >
                         Work
                     </Nav.Link>
-                    <Nav.Link
+                    <a
                         href="https://anthonyfreay.darkroom.com/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={`${NavStyle.navItem} ${activePage === 'store' ? NavStyle.activeNavLink : ''}`}
+                        className={NavStyle.navItem}
                     >
-                        Store
-                    </Nav.Link>
+                        Prints
+                    </a>
                     <Nav.Link
                         href="/contact"
                         className={`${NavStyle.navItem} ${activePage === 'contact' ? NavStyle.activeNavLink : ''}`}
