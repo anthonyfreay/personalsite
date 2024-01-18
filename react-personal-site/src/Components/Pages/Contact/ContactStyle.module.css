@@ -50,15 +50,65 @@ body {
     }
 }
 
+@media only screen and (max-width: 941.99999px) {
+    .bioContainer {
+        flex-direction: column;
+    }
+
+    .bioImage {
+        flex-basis: 10%;
+        max-width: 100%;
+
+        img {
+            width: 400px;
+        }
+    }
+
+    .bioDescription {
+        /* Adjust width to fit the column layout */
+        flex-basis: 10%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 668.99999px) {
+    .bioContainer {
+        flex-direction: column;
+    }
+
+    .bioImage {
+        flex-basis: 10%;
+        max-width: 100%;
+
+        img {
+            width: 400px;
+        }
+    }
+
+    .bioDescription {
+        /* Adjust width to fit the column layout */
+        flex-basis: 10%;
+        max-width: 100%;
+    }
+}
+
 @media only screen and (max-width: 470.99999px) {
     .bioContainer {
         flex-direction: column;
     }
 
-    .bioImage,
+    .bioImage {
+        flex-basis: 10%;
+        max-width: 100%;
+
+        img {
+            width: 400px;
+        }
+    }
+
     .bioDescription {
         /* Adjust width to fit the column layout */
-        flex-basis: 20%;
+        flex-basis: 10%;
         max-width: 100%;
     }
 }

@@ -34,6 +34,18 @@
     color: var(--accentColor3)
 }
 
+@media only screen and (max-width: 668.99999px) {
+    .footer {
+        max-width: 100%;
+    }
+
+    .pages {
+        font-size: 1rem;
+        padding: 10px 0px;
+        margin: 0 5px;
+    }
+}
+
 @media only screen and (max-width: 470.99999px) {
     .footer {
         max-width: 100%;
