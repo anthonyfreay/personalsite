@@ -160,6 +160,10 @@ body {
         background-image: url('./img/small-wallpaper-200108-04016.jpg');
     }
 
+    .content {
+        padding-bottom: 150px;
+    }
+
     .brandLogo a {
         font-size: 2.5rem;
     }

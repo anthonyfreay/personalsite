@@ -97,18 +97,25 @@ body {
         flex-direction: column;
     }
 
-    .bioImage {
-        flex-basis: 10%;
+    .bioImage,
+    .bioDescription {
+        flex-basis: auto;
+        /* Adjust the basis to auto for flexibility */
         max-width: 100%;
-
-        img {
-            width: 400px;
-        }
+        /* Ensure maximum width does not exceed the container */
+        flex-grow: 1;
+        /* Allow the elements to grow and fill the space */
     }
 
-    .bioDescription {
-        /* Adjust width to fit the column layout */
-        flex-basis: 10%;
+    .bioImage img {
         max-width: 100%;
+        /* Image should scale down */
+        height: auto;
+        /* Maintain the aspect ratio */
+    }
+
+    /* Additional adjustments for .bioDescription if necessary */
+    .bioDescription {
+        /* Your styles for bioDescription */
     }
 }
