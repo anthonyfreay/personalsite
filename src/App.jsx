@@ -1,9 +1,9 @@
 import React, { Suspense, lazy, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import ReactGA from 'react-ga4';
 import './App.css';
 
-// Lazy-loaded components
+/// Lazy-loaded components
 const Home = lazy(() => import('./Components/Pages/Home/Home'));
 const Contact = lazy(() => import('./Components/Pages/Contact/Contact'));
 const Work = lazy(() => import('./Components/Pages/Work/Work'));
