@@ -1,15 +1,18 @@
+import React from 'react';
 import { Navbar, Nav } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import NavStyle from "./Navbar.module.css";
 
 function NavBar({ activePage }) {
     return (
         <Navbar expand="lg" className={NavStyle.navbar}>
-            <Navbar.Brand href="/" className={NavStyle.navBrand}>Anthony Freay</Navbar.Brand>
+            <Navbar.Brand as={Link} to="/" className={NavStyle.navBrand}>Anthony Freay</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className={`${NavStyle.navContainer} ml-auto`}>
                     <Nav.Link
-                        href="/work"
+                        as={Link}
+                        to="/work"
                         className={`${NavStyle.navItem} ${activePage === 'work' ? NavStyle.activeNavLink : ''}`}
                     >
                         Work
@@ -23,7 +26,8 @@ function NavBar({ activePage }) {
                         Prints
                     </a>
                     <Nav.Link
-                        href="/contact"
+                        as={Link}
+                        to="/contact"
                         className={`${NavStyle.navItem} ${activePage === 'contact' ? NavStyle.activeNavLink : ''}`}
                     >
                         Contact
