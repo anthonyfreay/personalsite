@@ -20,6 +20,10 @@ body {
     color: var(--mainColorLight);
 }
 
+.enterButton {
+    color: var(--mainColorDark);
+}
+
 /* Animation for overlay */
 @keyframes fadeInDown {
     from {
