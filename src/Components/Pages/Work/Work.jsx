@@ -6,7 +6,13 @@ import Footer from '../../Util/Footer/Footer';
 import WorkStyle from "./Work.module.css";
 
 const categories = [
-    { path: '/live', image: "covers/live_cover.jpg", label: 'Live' },
+    { path: '/live', image: "live/A7400474-music.jpg", label: 'Live' },
+    // { path: '/live', image: "live/A7400443-music.jpg", label: 'Live' },
+    // { path: '/live', image: "live/RX704229-Enhanced-NR-Edit-music.jpg", label: 'Live' },
+    // { path: '/live', image: "live/RX701709-Enhanced-NR-music.jpg", label: 'Live' },
+    // { path: '/live', image: "live/DSC05615-music.jpg", label: 'Live' },
+    // { path: '/live', image: "live/A7206805-music.jpg", label: 'Live' },
+    // { path: '/live', image: "covers/live_cover.jpg", label: 'Live' },
     { path: '/bw', image: "covers/bw_cover.jpg", label: 'B & W' },
     { path: '/portraits', image: "covers/portrait_cover.jpg", label: 'Portraits' },
     { path: '/posters', image: "covers/poster_cover.jpg", label: 'Posters' },
