@@ -18,8 +18,9 @@ a {
 .mainContent {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 1300px;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 1300px; */
     margin: 0 auto;
     flex: 1;
     overflow-y: auto;
@@ -29,6 +30,7 @@ a {
 
 .coverImage {
     height: fit-content;
+    margin: 0px 25px;
 }
 
 .coverImage figcaption {
