@@ -48,16 +48,16 @@ body {
         max-width: 100%;
         justify-content: space-around;
         padding: 10px;
-        /* Add padding around the entire gallery */
     }
 
-    .gallery-item {
+    .galleryItem {
+        width: calc(50% - 10px);
         padding: 5px;
-        /* Add padding around each individual image */
     }
 
     .gallery img {
-        max-width: 100%;
+        width: 100%;
+        /* Change this to 100% */
         height: auto;
     }
 
