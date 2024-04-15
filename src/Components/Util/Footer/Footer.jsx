@@ -16,8 +16,7 @@ function Footer({ activePage }) {
                 <Link to="/contact" className={`${FooterStyles.pages} ${activePage === 'contact' ? FooterStyles.footerActive : ''}`}>Contact</Link>
             </div>
             <Icons className={FooterStyles.icons} iconSize={30} />
-            <p className={FooterStyles.copyright}>Copyright © All Rights Reserved.</p>
-        </div>
+            <p className={FooterStyles.copyright}>Copyright © {new Date().getFullYear()} All Rights Reserved.</p>        </div>
     );
 }
 
