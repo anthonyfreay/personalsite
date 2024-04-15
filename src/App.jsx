@@ -13,7 +13,7 @@ const BlackWhite = lazy(() => import('./Components/Pages/BlackWhite/BlackWhite')
 const EverettStudios = lazy(() => import('./Components/Pages/EverettStudios/EverettStudios'));
 const Posters = lazy(() => import('./Components/Pages/Posters/Posters'));
 const Resume = lazy(() => import('./Components/Pages/Resume/Resume'));
-const Portraits = lazy(() => import('./Components/Pages/Portraits/Portraits'));
+const People = lazy(() => import('./Components/Pages/People/People'));
 
 const initializeGA = () => {
   ReactGA.initialize('G-5RYLFVDX71');
@@ -49,7 +49,7 @@ function App() {
           <Route path='/everettstudios' element={<EverettStudios />} />
           <Route path='/posters' element={<Posters />} />
           <Route path='/resume' element={<Resume />} />
-          <Route path='/portraits' element={<Portraits />} />
+          <Route path='/people' element={<People />} />
         </Routes>
       </Suspense>
     </Router>
