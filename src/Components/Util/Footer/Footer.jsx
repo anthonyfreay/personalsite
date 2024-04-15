@@ -10,6 +10,7 @@ function Footer({ activePage }) {
                 <Link to="/live" className={`${FooterStyles.pages} ${activePage === 'live' ? FooterStyles.footerActive : ''}`}>Live</Link>
                 <Link to="/bw" className={`${FooterStyles.pages} ${activePage === 'bw' ? FooterStyles.footerActive : ''}`}>B & W</Link>
                 <Link to="/people" className={`${FooterStyles.pages} ${activePage === 'people' ? FooterStyles.footerActive : ''}`}>People</Link>
+                <Link to="/places" className={`${FooterStyles.pages} ${activePage === 'places' ? FooterStyles.footerActive : ''}`}>Places</Link>
                 {/* <Link to="/posters" className={`${FooterStyles.pages} ${activePage === 'posters' ? FooterStyles.footerActive : ''}`}>Posters</Link> */}
                 {/* <Link to="/apparel" className={`${FooterStyles.pages} ${activePage === 'apparel' ? FooterStyles.footerActive : ''}`}>Apparel</Link> */}
                 <Link to="/contact" className={`${FooterStyles.pages} ${activePage === 'contact' ? FooterStyles.footerActive : ''}`}>Contact</Link>
