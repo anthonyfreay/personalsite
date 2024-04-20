@@ -1,11 +1,12 @@
 import React, { useState, useCallback, memo } from 'react';
-import ImageGalleryStyle from './ImageGallery.module.css';
+import Masonry from 'react-masonry-css'; // Import the library
+import MasonryImageGalleryStyle from './MasonryImageGallery.module.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
 
-const ImageGallery = memo(({ images }) => {
+const MasonryImageGallery = memo(({ images }) => {
     const [lightboxOpen, setLightboxOpen] = useState(false);
     const [activeImage, setActiveImage] = useState(0);
 
@@ -24,26 +25,33 @@ const ImageGallery = memo(({ images }) => {
         src: image.hdSrc
     }));
 
+    // Define the breakpoints and corresponding number of columns
+    const breakpointColumnsObj = {
+        default: 5,
+        1100: 4,
+        900: 3,
+        490: 2
+    };
+
     return (
         <div>
-            <div className={ImageGalleryStyle.gallery}>
+            <Masonry
+                breakpointCols={breakpointColumnsObj}
+                className={MasonryImageGalleryStyle.gallery}
+                columnClassName={MasonryImageGalleryStyle.galleryItem}>
                 {images.map((image, index) => {
                     return (
-                        <div key={image.src} className={ImageGalleryStyle.galleryItem} onClick={() => openLightbox(index)}>
-                            {index < 4 ? (
-                                <img src={image.src} alt={image.alt} />
-                            ) : (
-                                <LazyLoadImage
-                                    src={image.src}
-                                    alt={image.alt}
-                                    effect="blur"
-                                    threshold={10}
-                                />
-                            )}
+                        <div key={image.src} onClick={() => openLightbox(index)}>
+                            <LazyLoadImage
+                                src={image.src}
+                                alt={image.alt}
+                                effect="blur"
+                                threshold={10}
+                            />
                         </div>
                     );
                 })}
-            </div>
+            </Masonry>
 
             {lightboxOpen && (
                 <LightboxComponent
@@ -60,18 +68,18 @@ const ImageGallery = memo(({ images }) => {
 
 const LightboxComponent = ({ images, open, activeImage, onClose }) => {
     return (
-        <div className={ImageGalleryStyle.lightboxContainer}>
+        <div className={MasonryImageGalleryStyle.lightboxContainer}>
             <Lightbox
                 slides={images}
                 open={open}
                 index={activeImage}
                 controller={{ closeOnBackdropClick: true }}
                 close={onClose}
-                className={ImageGalleryStyle.lightbox}
+                className={MasonryImageGalleryStyle.lightbox}
                 animation={{ swipe: 0 }}
             />
         </div>
     );
 };
 
-export default ImageGallery;
+export default MasonryImageGallery;

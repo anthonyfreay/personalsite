@@ -3,6 +3,7 @@ import PageHeader from '../../Util/PageHeader/PageHeader';
 import Navbar from '../../Util/Navbar/Navbar'
 import LiveStyle from "./Live.module.css"
 import ImageGallery from '../../Util/ImageGallery/ImageGallery';
+// import MasonryImageGallery from '../../Util/MasonryImageGallery/MasonryImageGallery'
 import Footer from '../../Util/Footer/Footer'
 
 
@@ -57,6 +58,7 @@ const Live = () => {
             <PageHeader title="Live | Anthony Freay" />
             <Navbar className={LiveStyle.navBar} />
             <div className={LiveStyle.mainContent}>
+                {/* <MasonryImageGallery images={imageData} /> */}
                 <ImageGallery images={imageData} />
             </div>
             <Footer className={LiveStyle.footer} activePage={"live"} />
