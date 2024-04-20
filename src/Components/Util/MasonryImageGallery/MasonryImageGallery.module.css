@@ -29,6 +29,6 @@ img {
     --yarl__color_backdrop: var(--overlayColor);
 
     img {
-        border: 50px solid white !important;
+        border: 30px solid white !important;
     }
 }
