@@ -9,7 +9,8 @@ const categories = [
     { path: '/live', image: "live/A7400474-music.jpg", label: 'Live' },
     { path: '/bw', image: "covers/bw_cover.jpg", label: 'B & W' },
     { path: '/people', image: "covers/people_cover.jpg", label: 'People' },
-    { path: '/places', image: "places/A7406615-scapes.jpg", label: 'Places' }
+    { path: '/places', image: "places/A7406615-scapes.jpg", label: 'Places' },
+    { path: '/cars', image: "covers/cars_cover.jpg", label: 'Cars' }
     // { path: '/posters', image: "covers/poster_cover.jpg", label: 'Posters' },
     // { path: '/apparel', image: "covers/apparel_cover.jpg", label: 'Apparel' }
 ];

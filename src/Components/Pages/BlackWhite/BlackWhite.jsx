@@ -28,6 +28,12 @@ const BlackWhite = () => {
         { alt: "Chelsea Cutler", src: "bw/A7208259-Edit-bw.jpg" },
         { alt: "Ice in my Veins", src: "bw/DSC02743-bw.jpg" },
         { alt: "Taxi Driver", src: "bw/DSC08988-bw.jpg" },
+        { alt: "Harbour along Oregon Coast", src: "bw/A7204510-bw.jpg" },
+        { alt: "Scary reflection in a window of an Oregon house", src: "bw/A7204635-bw.jpg" },
+        { alt: "Skating sideways", src: "bw/A7405342-bw.jpg" },
+        { alt: "Crash landing", src: "bw/A7405350-bw.jpg" },
+        { alt: "Mexico City Square", src: "bw/A7406217-bw.jpg" },
+        { alt: "Family on a Motorcycle", src: "bw/RX702300-bw.jpg" },
         { alt: "Alone in the parking lot", src: "bw/A7208874-bw.jpg" }
     ].map(image => ({
         ...image,

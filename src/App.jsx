@@ -15,6 +15,7 @@ const Posters = lazy(() => import('./Components/Pages/Posters/Posters'));
 const Resume = lazy(() => import('./Components/Pages/Resume/Resume'));
 const People = lazy(() => import('./Components/Pages/People/People'));
 const Places = lazy(() => import('./Components/Pages/Places/Places'));
+const Cars = lazy(() => import('./Components/Pages/Cars/Cars'));
 
 const initializeGA = () => {
   ReactGA.initialize('G-5RYLFVDX71');
@@ -52,6 +53,7 @@ function App() {
           <Route path='/resume' element={<Resume />} />
           <Route path='/people' element={<People />} />
           <Route path='/places' element={<Places />} />
+          <Route path='/cars' element={<Cars />} />
         </Routes>
       </Suspense>
     </Router>

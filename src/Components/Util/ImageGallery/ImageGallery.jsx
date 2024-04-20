@@ -29,12 +29,16 @@ const ImageGallery = memo(({ images }) => {
                 {images.map((image, index) => {
                     return (
                         <div key={image.src} className={ImageGalleryStyle.galleryItem} onClick={() => openLightbox(index)}>
-                            <LazyLoadImage
-                                src={image.src}
-                                alt={image.alt}
-                                effect="blur"
-                                threshold={100}
-                            />
+                            {index < 4 ? (
+                                <img src={image.src} alt={image.alt} />
+                            ) : (
+                                <LazyLoadImage
+                                    src={image.src}
+                                    alt={image.alt}
+                                    effect="blur"
+                                    threshold={10}
+                                />
+                            )}
                         </div>
                     );
                 })}
