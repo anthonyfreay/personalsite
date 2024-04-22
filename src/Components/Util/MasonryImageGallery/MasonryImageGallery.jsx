@@ -27,7 +27,7 @@ const MasonryImageGallery = memo(({ images }) => {
 
     // Define the breakpoints and corresponding number of columns
     const breakpointColumnsObj = {
-        default: 5,
+        default: 4,
         1100: 4,
         900: 3,
         490: 2
