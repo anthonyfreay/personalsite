@@ -13,7 +13,7 @@ const Contact = () => {
             <div className={ContactStyle.mainContent}>
                 <div className={ContactStyle.bioContainer}>
                     <div className={ContactStyle.bioImage}>
-                        <img src="/me/anthonyfreay-color.jpg" alt="Anthony Freay" className={ContactStyle.profileImage} />
+                        <img src="/me/RX706334-Enhanced-NR-color.jpg" alt="Anthony Freay" className={ContactStyle.profileImage} />
                     </div>
                     <div className={ContactStyle.bioDescription}>
                         <p className={ContactStyle.intro}>
