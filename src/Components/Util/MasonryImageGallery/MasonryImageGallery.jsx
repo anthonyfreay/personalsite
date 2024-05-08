@@ -46,7 +46,7 @@ const MasonryImageGallery = memo(({ images }) => {
                                 src={image.src}
                                 alt={image.alt}
                                 effect="blur"
-                                threshold={10}
+                                threshold={1}
                             />
                         </div>
                     );

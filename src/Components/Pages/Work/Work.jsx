@@ -6,10 +6,10 @@ import Footer from '../../Util/Footer/Footer';
 import WorkStyle from "./Work.module.css";
 
 const categories = [
-    { path: '/live', image: "live/A7400474-music.jpg", label: 'Live' },
+    { path: '/live', image: "live/A7400474-music.webp", label: 'Live' },
     { path: '/bw', image: "covers/bw_cover.jpg", label: 'B & W' },
     { path: '/people', image: "covers/people_cover.jpg", label: 'People' },
-    { path: '/places', image: "places/A7406615-scapes.jpg", label: 'Places' },
+    { path: '/places', image: "places/A7406615-scapes.webp", label: 'Places' },
     { path: '/cars', image: "covers/cars_cover.jpg", label: 'Cars' },
     { path: '/events', image: "covers/events_cover.jpg", label: 'Events' }
     // { path: '/posters', image: "covers/poster_cover.jpg", label: 'Posters' },

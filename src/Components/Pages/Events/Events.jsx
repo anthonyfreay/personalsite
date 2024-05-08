@@ -10,75 +10,73 @@ const Events = () => {
 
     useEffect(() => {
         const data = [
-            { "alt": "wide", "src": "events/A7401031-color.jpg" },
-            { "alt": "wide", "src": "events/A7207716-color.jpg" },
+            { "alt": "wide", "src": "events/A7401031-color.webp" },
+            { "alt": "wide", "src": "events/A7207716-color.webp" },
 
-            { "alt": "", "src": "events/A7206535-color.jpg" },
-            { "alt": "", "src": "events/A7407621-color.jpg" },
-            { "alt": "", "src": "events/A7401037-color.jpg" },
-            { "alt": "long", "src": "events/A7206542-color.jpg" },
+            { "alt": "", "src": "events/A7206535-color.webp" },
+            { "alt": "", "src": "events/A7407621-color.webp" },
+            { "alt": "", "src": "events/A7401037-color.webp" },
+            { "alt": "long", "src": "events/A7206542-color.webp" },
 
-            { "alt": "wide", "src": "events/A7400937-color.jpg" },
-            { "alt": "Shots", "src": "events/A7400993-color.jpg" },
-            { "alt": "", "src": "events/A7208096-color.jpg" },
-            { "alt": "", "src": "events/A7207973-color.jpg" },
+            { "alt": "wide", "src": "events/A7400937-color.webp" },
+            { "alt": "Shots", "src": "events/A7400993-color.webp" },
+            { "alt": "", "src": "events/A7208096-color.webp" },
+            { "alt": "", "src": "events/A7207973-color.webp" },
 
-            { "alt": "Long", "src": "events/A7206604-Enhanced-NR-color.jpg" },
-            { "alt": "Mom, Cita, and Tio", "src": "events/A7206591-color.jpg" },
-            { "alt": "", "src": "events/A7207607-color.jpg" },
-            { "alt": "", "src": "events/A7206528-color.jpg" },
+            { "alt": "Long", "src": "events/A7206604-Enhanced-NR-color.webp" },
+            { "alt": "Mom, Cita, and Tio", "src": "events/A7206591-color.webp" },
+            { "alt": "", "src": "events/A7207607-color.webp" },
+            { "alt": "", "src": "events/A7206528-color.webp" },
 
-            { "alt": "wide", "src": "events/A7400919-color.jpg" },
-            { "alt": "", "src": "events/A7208033-color.jpg" },
-            { "alt": "", "src": "events/A7207913-color.jpg" },
-            { "alt": "Aperol Spritz", "src": "events/A7207907-color.jpg" },
+            { "alt": "wide", "src": "events/A7400919-color.webp" },
+            { "alt": "", "src": "events/A7208033-color.webp" },
+            { "alt": "", "src": "events/A7207913-color.webp" },
+            { "alt": "Aperol Spritz", "src": "events/A7207907-color.webp" },
 
-            { "alt": "", "src": "events/A7402535-color.jpg" },
-            { "alt": "", "src": "events/A7402521-color.jpg" },
-            { "alt": "", "src": "events/A7206559-color.jpg" },
-            { "alt": "Jill and Kendall", "src": "events/A7401130-color.jpg" },
+            { "alt": "", "src": "events/A7402535-color.webp" },
+            { "alt": "", "src": "events/A7402521-color.webp" },
+            { "alt": "", "src": "events/A7206559-color.webp" },
+            { "alt": "Jill and Kendall", "src": "events/A7401130-color.webp" },
 
-            { "alt": "wide", "src": "events/A7206906-color.jpg" },
-            { "alt": "Maddie Miller Bday Cake", "src": "events/A7407589-color.jpg" },
-            { "alt": "", "src": "events/A7402701-color.jpg" },
-            { "alt": "", "src": "events/A7401049-color.jpg" },
+            { "alt": "wide", "src": "events/A7206906-color.webp" },
+            { "alt": "Maddie Miller Bday Cake", "src": "events/A7407589-color.webp" },
+            { "alt": "", "src": "events/A7402701-color.webp" },
+            { "alt": "", "src": "events/A7401049-color.webp" },
 
-            { "alt": "", "src": "events/A7401014-color.jpg" },
-            { "alt": "DJ Bolivar", "src": "events/A7206551-color.jpg" },
-            { "alt": "", "src": "events/A7407559-color.jpg" },
-            { "alt": "", "src": "events/A7206574-color.jpg" },
+            { "alt": "", "src": "events/A7401014-color.webp" },
+            { "alt": "DJ Bolivar", "src": "events/A7206551-color.webp" },
+            { "alt": "", "src": "events/A7407559-color.webp" },
+            { "alt": "", "src": "events/A7206574-color.webp" },
 
-            { "alt": "wide", "src": "events/A7207983-color.jpg" },
-            { "alt": "wide", "src": "events/A7402659-color.jpg" },
-            { "alt": "wide", "src": "events/A7207820-color.jpg" },
-            { "alt": "", "src": "events/A7402526-color.jpg" },
+            { "alt": "wide", "src": "events/A7207983-color.webp" },
+            { "alt": "wide", "src": "events/A7402659-color.webp" },
+            { "alt": "wide", "src": "events/A7207820-color.webp" },
+            { "alt": "", "src": "events/A7402526-color.webp" },
 
-            { "alt": "All The Way Down", "src": "events/A7207740-color.jpg" },
-            { "alt": "", "src": "events/A7207884-color.jpg" },
-            { "alt": "", "src": "events/A7402541-color.jpg" },
-            { "alt": "Cita", "src": "events/A7206564-color.jpg" },
+            { "alt": "All The Way Down", "src": "events/A7207740-color.webp" },
+            { "alt": "", "src": "events/A7207884-color.webp" },
+            { "alt": "", "src": "events/A7402541-color.webp" },
+            { "alt": "Cita", "src": "events/A7206564-color.webp" },
 
-            { "alt": "wide", "src": "events/A7407714-color.jpg" },
-            { "alt": "Abuela and Candeladia", "src": "events/A7206966-color.jpg" },
-            { "alt": "", "src": "events/A7207859-color.jpg" },
-            { "alt": "", "src": "events/A7400918-color.jpg" },
+            { "alt": "wide", "src": "events/A7407714-color.webp" },
+            { "alt": "Abuela and Candeladia", "src": "events/A7206966-color.webp" },
+            { "alt": "", "src": "events/A7207859-color.webp" },
+            { "alt": "", "src": "events/A7400918-color.webp" },
 
-            { "alt": "", "src": "events/A7402743-color.jpg" },
-            { "alt": "Cake", "src": "events/A7206529-color.jpg" },
+            { "alt": "", "src": "events/A7402743-color.webp" },
+            { "alt": "Cake", "src": "events/A7206529-color.webp" },
 
-            { "alt": "wide", "src": "events/A7208176-color.jpg" },
-            { "alt": "", "src": "events/A7400963-color.jpg" },
-            { "alt": "", "src": "events/A7207942-color.jpg" },
-            { "alt": "wide", "src": "events/A7402648-color.jpg" },
-            { "alt": "", "src": "events/A7400916-color.jpg" },
-            { "alt": "", "src": "events/A7206546-color.jpg" },
+            { "alt": "wide", "src": "events/A7208176-color.webp" },
+            { "alt": "", "src": "events/A7400963-color.webp" },
+            { "alt": "", "src": "events/A7207942-color.webp" },
+            { "alt": "wide", "src": "events/A7402648-color.webp" },
+            { "alt": "", "src": "events/A7400916-color.webp" },
+            { "alt": "", "src": "events/A7206546-color.webp" },
 
         ].map(image => ({
             ...image,
             hdSrc: image.src.replace(/(\.\w+)$/, '-hd$1') // Append '-hd' before the file extension
         }));
-
-        console.log(data.length)
         setImageData(data);
     }, []);
 

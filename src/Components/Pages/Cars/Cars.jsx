@@ -9,33 +9,33 @@ import Footer from '../../Util/Footer/Footer'
 
 const Cars = () => {
     const imageData = [
-        { alt: "", src: "cars/A7405672-bw.jpg" },
+        { alt: "", src: "cars/A7405672-bw.webp" },
 
-        { alt: "", src: "cars/A7200461-color.jpg" },
-        { alt: "", src: "cars/A7200465-color.jpg" },
-        { alt: "", src: "cars/DSC04341-bw.jpg" },
-        { alt: "", src: "cars/A7200477-color.jpg" },
+        { alt: "", src: "cars/A7200461-color.webp" },
+        { alt: "", src: "cars/A7200465-color.webp" },
+        { alt: "", src: "cars/DSC04341-bw.webp" },
+        { alt: "", src: "cars/A7200477-color.webp" },
 
-        { alt: "", src: "cars/A7405676-color.jpg" },
+        { alt: "", src: "cars/A7405676-color.webp" },
 
-        { alt: "", src: "cars/A7200475-color.jpg" },
-        { alt: "", src: "cars/A7406726-bw.jpg" },
-        { alt: "", src: "cars/A7200462-color.jpg" },
-        { alt: "", src: "cars/A7200488-color.jpg" },
+        { alt: "", src: "cars/A7200475-color.webp" },
+        { alt: "", src: "cars/A7406726-bw.webp" },
+        { alt: "", src: "cars/A7200462-color.webp" },
+        { alt: "", src: "cars/A7200488-color.webp" },
 
-        { alt: "", src: "cars/A7204618-color.jpg" },
+        { alt: "", src: "cars/A7204618-color.webp" },
 
-        { alt: "", src: "cars/A7406716-bw.jpg" },
-        { alt: "", src: "cars/A7406778-color.jpg" },
-        { alt: "", src: "cars/A7206342-color.jpg" },
-        { alt: "", src: "cars/A7406734-color.jpg" },
+        { alt: "", src: "cars/A7406716-bw.webp" },
+        { alt: "", src: "cars/A7406778-color.webp" },
+        { alt: "", src: "cars/A7206342-color.webp" },
+        { alt: "", src: "cars/A7406734-color.webp" },
 
-        { alt: "", src: "cars/A7406721-bw.jpg" },
+        { alt: "", src: "cars/A7406721-bw.webp" },
 
-        { alt: "", src: "cars/A7406717-bw.jpg" },
-        { alt: "", src: "cars/A7209958-color.jpg" },
+        { alt: "", src: "cars/A7406717-bw.webp" },
+        { alt: "", src: "cars/A7209958-color.webp" },
 
-        // { alt: "", src: "cars/A7406517-Enhanced-NR-color.jpg" },
+        // { alt: "", src: "cars/A7406517-Enhanced-NR-color.webp" },
 
 
     ].map(image => ({
