@@ -1,8 +1,6 @@
-import React, { useState, useCallback, memo } from 'react';
+import React, { useState, useCallback, useEffect, useRef, memo } from 'react';
 import Masonry from 'react-masonry-css'; // Import the library
 import MasonryImageGalleryStyle from './MasonryImageGallery.module.css';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
 
@@ -45,8 +43,6 @@ const MasonryImageGallery = memo(({ images }) => {
                             <LazyLoadImage
                                 src={image.src}
                                 alt={image.alt}
-                                effect="blur"
-                                threshold={1}
                             />
                         </div>
                     );
@@ -65,6 +61,37 @@ const MasonryImageGallery = memo(({ images }) => {
         </div>
     );
 });
+
+const LazyLoadImage = ({ src, alt }) => {
+    const [loaded, setLoaded] = useState(false);
+    const imgRef = useRef();
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    setLoaded(true);
+                    observer.disconnect();
+                }
+            });
+        });
+
+        observer.observe(imgRef.current);
+
+        return () => {
+            observer.disconnect();
+        };
+    }, []);
+
+    return (
+        <img
+            ref={imgRef}
+            src={loaded ? src : ''}
+            alt={alt}
+            style={loaded ? {} : { background: '#f6f6f6' }}
+        />
+    );
+};
 
 const LightboxComponent = ({ images, open, activeImage, onClose }) => {
     return (
