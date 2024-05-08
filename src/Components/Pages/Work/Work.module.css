@@ -122,8 +122,8 @@ a {
 @media only screen and (max-width: 470.99999px) {
     .coverImage {
         img {
-            width: 300px;
-            height: 300px;
+            width: 220px;
+            height: 220px;
             object-fit: cover;
         }
 
