@@ -1,5 +1,6 @@
 import React from 'react'
 import PageHeader from '../../Util/PageHeader/PageHeader';
+import { Helmet } from 'react-helmet-async';
 import Navbar from '../../Util/Navbar/Navbar'
 import LiveStyle from "./Live.module.css"
 import ImageGallery from '../../Util/ImageGallery/ImageGallery';
@@ -55,6 +56,11 @@ const Live = () => {
 
     return (
         <div className={LiveStyle.container}>
+            <Helmet>
+                {imageData.map((image, index) => (
+                    <link key={index} rel="preload" as="image" href={image.src} />
+                ))}
+            </Helmet>
             <PageHeader title="Live | Anthony Freay" />
             <Navbar className={LiveStyle.navBar} />
             <div className={LiveStyle.mainContent}>

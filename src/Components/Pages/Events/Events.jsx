@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import PageHeader from '../../Util/PageHeader/PageHeader';
-import Navbar from '../../Util/Navbar/Navbar'
-import EventsStyle from "./EventsStyle.module.css"
+import Navbar from '../../Util/Navbar/Navbar';
+import EventsStyle from "./EventsStyle.module.css";
 import MasonryImageGallery from '../../Util/MasonryImageGallery/MasonryImageGallery';
-import Footer from '../../Util/Footer/Footer'
+import Footer from '../../Util/Footer/Footer';
 
 const Events = () => {
     const [imageData, setImageData] = useState([]);
@@ -75,13 +76,18 @@ const Events = () => {
 
         ].map(image => ({
             ...image,
-            hdSrc: image.src.replace(/(\.\w+)$/, '-hd$1') // Append '-hd' before the file extension
+            hdSrc: image.src.replace(/(\.\w+)$/, '-hd$1')
         }));
         setImageData(data);
     }, []);
 
     return (
         <div className={EventsStyle.container}>
+            <Helmet>
+                {imageData.map((image, index) => (
+                    <link key={index} rel="preload" as="image" href={image.src} />
+                ))}
+            </Helmet>
             <PageHeader title="Events | Anthony Freay" />
             <Navbar className={EventsStyle.navBar} />
             <div className={EventsStyle.mainContent}>
