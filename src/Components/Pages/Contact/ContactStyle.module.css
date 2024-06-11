@@ -1,0 +1,121 @@
+@import '../../../App.css';
+
+html,
+body {
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1300px;
+    margin: 0 auto;
+    flex: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.bioContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    max-width: 3000px;
+}
+
+.bioImage {
+    flex-basis: 30%;
+    max-width: 500px;
+    margin: 10px 10px;
+}
+
+.bioDescription {
+    flex-basis: 30%;
+    max-width: 700px;
+    margin: 10px 10px;
+    font-size: 14px;
+
+
+    p {
+        text-justify: inter-word;
+    }
+}
+
+@media only screen and (max-width: 941.99999px) {
+    .bioContainer {
+        flex-direction: column;
+    }
+
+    .bioImage {
+        flex-basis: 10%;
+        max-width: 100%;
+
+        img {
+            width: 400px;
+        }
+    }
+
+    .bioDescription {
+        /* Adjust width to fit the column layout */
+        flex-basis: 10%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 668.99999px) {
+    .bioContainer {
+        flex-direction: column;
+    }
+
+    .bioImage {
+        flex-basis: 10%;
+        max-width: 100%;
+
+        img {
+            width: 400px;
+        }
+    }
+
+    .bioDescription {
+        /* Adjust width to fit the column layout */
+        flex-basis: 10%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 470.99999px) {
+    .bioContainer {
+        flex-direction: column;
+    }
+
+    .bioImage,
+    .bioDescription {
+        flex-basis: auto;
+        /* Adjust the basis to auto for flexibility */
+        max-width: 100%;
+        /* Ensure maximum width does not exceed the container */
+        flex-grow: 1;
+        /* Allow the elements to grow and fill the space */
+    }
+
+    .bioImage img {
+        max-width: 100%;
+        /* Image should scale down */
+        height: auto;
+        /* Maintain the aspect ratio */
+    }
+
+    /* Additional adjustments for .bioDescription if necessary */
+    .bioDescription {
+        /* Your styles for bioDescription */
+    }
+}

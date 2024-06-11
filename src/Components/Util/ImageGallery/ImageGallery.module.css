@@ -1,0 +1,69 @@
+@import '../../../App.css';
+
+html,
+body {
+    overflow: auto;
+    padding: 0 !important;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1830px;
+    margin: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-item {
+    max-width: 450px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.lightbox {
+    --yarl__color_backdrop: var(--overlayColor);
+
+    img {
+        border: 50px solid white !important;
+    }
+}
+
+@media only screen and (max-width: 470.99999px) {
+    .gallery {
+        max-width: 100%;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    .galleryItem {
+        width: calc(50% - 10px);
+        padding: 5px;
+    }
+
+    .gallery img {
+        width: 100%;
+        /* Change this to 100% */
+        height: auto;
+    }
+
+    .lightbox {
+        img {
+            border: 30px solid white !important;
+        }
+    }
+}

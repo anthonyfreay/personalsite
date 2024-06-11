@@ -1,0 +1,92 @@
+@import '../../../App.css';
+
+.navbar {
+    padding: 5px 10px;
+    color: var(--textColor);
+    background-color: var(--mainColorLight);
+}
+
+.navContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navBrand {
+    padding: 5px 10px;
+    margin: 5px 10px;
+    font-size: 2rem;
+
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.activeNavLink {
+    color: var(--mainColorDark) !important;
+    text-decoration: underline;
+}
+
+.activeNavLink:hover {
+    color: var(--accentColor3) !important;
+}
+
+.navItem {
+    margin: 0px 10px;
+    font-size: 1.3rem;
+    color: var(--accentColor1);
+}
+
+.navItem:hover {
+    color: var(--accentColor3);
+}
+
+.homeNavbar {
+    background-color: transparent;
+    color: var(--mainColorLight);
+}
+
+.homeNavItem {
+    margin: 0px 5px;
+    color: var(--mainColorLight);
+    font-family: var(--fontFamily);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.homeNavItem:hover {
+    color: var(--accentColor1);
+}
+
+a.navItem {
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+
+a.homeNavItem {
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+
+@media only screen and (max-width: 1367.99999px) {}
+
+@media only screen and (max-width: 841.99999px) {
+    .homeNavItem {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 668.99999px) {
+    .homeNavItem {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 470.99999px) {
+    .homeNavItem {
+        font-size: 0.8rem;
+    }
+
+    .navBrand {
+        font-size: 1.8rem;
+    }
+}

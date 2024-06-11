@@ -1,0 +1,59 @@
+@import '../../../App.css';
+
+.footer {
+    background-color: var(--mainColorDark);
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.pageSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pages {
+    color: var(--accentColor2);
+    text-decoration: none;
+    padding: 20px 5px;
+    margin: 0 10px;
+}
+
+.copyright {
+    color: var(--mainColorLight);
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 20px 10px;
+}
+
+.footerActive {
+    color: var(--mainColorLight);
+}
+
+.pages:hover {
+    color: var(--accentColor3)
+}
+
+@media only screen and (max-width: 668.99999px) {
+    .footer {
+        max-width: 100%;
+    }
+
+    .pages {
+        font-size: 1rem;
+        padding: 10px 0px;
+        margin: 0 5px;
+    }
+}
+
+@media only screen and (max-width: 470.99999px) {
+    .footer {
+        max-width: 100%;
+    }
+
+    .pages {
+        font-size: 0.8rem;
+        padding: 10px 0px;
+        margin: 0 5px;
+    }
+}

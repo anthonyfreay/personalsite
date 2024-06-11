@@ -1,0 +1,20 @@
+@import '../../../App.css';
+
+html,
+body {
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContent {
+    max-width: 3000px;
+    margin: 10px auto;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,184 @@
+@import '../../../App.css';
+
+html,
+body {
+    background-color: var(--mainColorLight);
+    font-family: var(--fontFamily);
+    overflow: hidden;
+}
+
+.main {
+    height: 100%;
+    background-image: url('./img/compressed-wallpaper-200108-04016.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: var(--mainColorDark);
+    text-decoration: none;
+    overflow: hidden;
+    color: var(--mainColorLight);
+}
+
+.enterButton {
+    color: var(--mainColorDark);
+}
+
+/* Animation for overlay */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animation for content */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.overlay {
+    background: var(--overlayColor);
+    animation: fadeInDown 1s ease-out forwards;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.brandLogo a {
+    font-size: 3.1rem;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--mainColorLight);
+    padding: 5px 25px;
+    margin: 10px;
+}
+
+.enterButton {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.3rem;
+    padding: 5px 25px;
+    margin: 10px 10px 15px 10px;
+    width: 10rem;
+    height: 50px;
+    border-radius: 150px;
+    border: none;
+    background-color: var(--mainColorLight);
+
+    &:hover {
+        background-color: #dedfdd;
+        /* Darker shade for hover effect */
+    }
+}
+
+.enterButtonText {
+    text-decoration: none;
+    color: var(--mainColorDark);
+}
+
+@media only screen and (max-width: 1367.99999px) {
+    .main {
+        background-image: url('./img/large-wallpaper-200108-04016.jpg');
+    }
+
+    .brandLogo a {
+        font-size: 3rem;
+    }
+
+    .enterButton,
+    .enterButtonText {
+        font-size: 1.5rem;
+    }
+
+    .icon {
+        color: #dedfdd;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 841.99999px) {
+    .main {
+        background-image: url('./img/medium-wallpaper-200108-04016.jpg');
+    }
+
+    .brandLogo a {
+        font-size: 3rem;
+    }
+
+    .enterButton,
+    .enterButtonText {
+        font-size: 1.5rem;
+    }
+
+    .icon {
+        color: #dedfdd;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 668.99999px) {
+
+    .main {
+        background-image: url('./img/small-wallpaper-200108-04016.jpg');
+    }
+
+    .brandLogo a {
+        font-size: 2.9rem;
+    }
+
+    .enterButton,
+    .enterButtonText {
+        font-size: 1.4rem;
+    }
+
+    .icon {
+        color: #dedfdd;
+        font-size: 1.9rem;
+    }
+}
+
+@media only screen and (max-width: 470.99999px) {
+
+    .main {
+        background-image: url('./img/small-wallpaper-200108-04016.jpg');
+    }
+
+    .content {
+        padding-bottom: 150px;
+    }
+
+    .brandLogo a {
+        font-size: 2.5rem;
+    }
+
+    .enterButton,
+    .enterButtonText {
+        font-size: 1.2rem;
+    }
+
+    .icon {
+        color: #dedfdd;
+        font-size: 1.7rem;
+    }
+}
