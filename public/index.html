@@ -50,6 +50,17 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      if (window.location.pathname === '/') {
+        const metaThemeColor = document.querySelector('meta[name="theme-color"]');
+        if (metaThemeColor) {
+          metaThemeColor.setAttribute('content', '#090909');
+        }
+      }
+    });
+  </script>
 </body>
 
 </html>
