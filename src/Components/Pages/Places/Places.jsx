@@ -71,25 +71,26 @@ const Places = () => {
 
         { alt: "Simon Bolivar Park", src: "places/RX702078-scapes.webp" },
         { alt: "Venice Beach", src: "places/A7405346-color.webp" },
-        { alt: "Eclipse", src: "places/RX706102-scapes.webp" },
-        { alt: "Me n You", src: "places/A7406508-scapes.webp" },
+        { alt: "International Tennis Hall of Fame", src: "places/A7409292-color.webp" },
 
         { alt: "", src: "places/A7407228-scapes.webp" },
         { alt: "", src: "places/A7401638-scapes.webp" },
+
+        { alt: "Me n You", src: "places/A7406508-scapes.webp" },
+
 
         { alt: "Guayaquil Malecon", src: "places/RX702144-scapes.webp" },
         { alt: "Guayaquil Highway", src: "places/RX702346-scapes.webp" },
 
         { alt: "", src: "places/A7405944-color.webp" },
-        { alt: "", src: "places/A7407417-scapes.webp" },
-        // { alt: "", src: "places/A7407519-scapes.webp" },
-        // { alt: "", src: "places/RX702351-scapes.webp" },
+        { alt: "", src: "places/A7407519-scapes.webp" },
+        { alt: "", src: "places/RX702351-scapes.webp" },
 
-        // { alt: "", src: "places/A7405591-color.webp" },
-        // { alt: "Aruba Sun", src: "places/A7407216-scapes.webp" },
-        // { alt: "", src: "places/A7407224-scapes.webp" },
-        // { alt: "", src: "places/A7406556-Edit-scapes.webp" },
-        // { alt: "", src: "places/A7401732-Enhanced-NR-color.webp" },
+        { alt: "", src: "places/A7405591-color.webp" },
+        { alt: "Aruba Sun", src: "places/A7407216-scapes.webp" },
+        { alt: "", src: "places/A7407224-scapes.webp" },
+        { alt: "", src: "places/A7406556-Edit-scapes.webp" },
+        { alt: "", src: "places/A7401732-Enhanced-NR-color.webp" },
 
     ].map(image => ({
         ...image,
