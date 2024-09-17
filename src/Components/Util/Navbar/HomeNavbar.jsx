@@ -19,7 +19,7 @@ function HomeNavbar() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
                     <a
-                        href="/anthony_freay_resume.pdf"
+                        href="/resume-anthony_freay-f2024.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className={NavStyle.homeNavItem}
